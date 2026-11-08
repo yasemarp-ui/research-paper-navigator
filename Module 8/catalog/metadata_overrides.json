@@ -1,0 +1,57 @@
+{
+  "_how_to": [
+    "Manual corrections. They always win over the extracted metadata.",
+    "papers: {paper_id: {title, authors, year, venue, doc_type}} - give only the fields to change.",
+    "volume_papers: {volume_paper_id: [{start_page, title, authors}]} - adds or corrects the paper starting on that PDF page; {start_page, remove: true} drops a wrongly detected one.",
+    "After editing, run: paper_navigator.py provenance --no-llm, then index."
+  ],
+  "papers": {
+    "DBLP_journals_sttt_Solar-Lezama13": {"doc_type": "other", "authors": ["National Institute of Standards and Technology"]},
+    "DBLP_journals_corr_abs-1901-05437": {"authors": ["Zenna Tavares", "Javier Burroni", "Edgar Minaysan", "Armando Solar Lezama", "Rajesh Rangananth"]},
+    "DBLP_conf_icml_GuJLSESS25": {"title": "Position: Future Research and Challenges Remain Towards AI for Software Engineering"},
+    "DBLP_conf_iclr_JainHGLYZWSSS25": {"title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code"},
+    "DBLP_conf_oopsla_YessenovXS11": {"year": 2026},
+    "DBLP_journals_corr_PolikarpovaYIS16": {"year": 2020},
+    "DBLP_conf_hybrid_HuntFMHDS21": {"year": 2020, "venue": null},
+    "DBLP_conf_icra_CamposISK19": {"year": 2025},
+    "DBLP_conf_mapl_GottschlichSTCR18": {"year": 2021},
+    "DBLP_conf_pldi_Solar-LezamaJB08": {"year": 2023},
+    "DBLP_conf_popl_YangYS12": {"year": 2025},
+    "DBLP_conf_ppopp_KurajSP22": {"year": 2019, "venue": null},
+    "DBLP_journals_corr_EllisRST17": {"year": 2018},
+    "DBLP_journals_corr_InalaQLS15": {"year": 2017, "venue": null},
+    "DBLP_journals_corr_KoppelS17": {"year": 2018},
+    "DBLP_journals_corr_PolikarpovaS15": {"year": 2016},
+    "DBLP_journals_corr_YangHASFC15": {"year": 2016},
+    "DBLP_journals_corr_abs-1710-10385": {"year": 2018},
+    "DBLP_journals_corr_abs-1711-03243": {"year": 2018},
+    "DBLP_journals_corr_abs-1803-07244": {"year": 2021},
+    "DBLP_journals_corr_abs-1805-08328": {"year": 2019},
+    "DBLP_journals_corr_abs-1812-02573": {"year": 2019},
+    "DBLP_journals_corr_abs-1903-03229": {"year": 2020},
+    "DBLP_journals_corr_abs-2111-12772": {"year": 2022},
+    "DBLP_journals_corr_abs-2302-01976": {"year": 2026},
+    "DBLP_journals_corr_abs-2407-01567": {"year": 2025},
+    "DBLP_journals_ftpl_CheungS16": {"year": 2026},
+    "DBLP_conf_cvpr_WillisJCT0GSTLS22": {"venue": null},
+    "DBLP_conf_oopsla_PuNSB16": {"venue": null},
+    "DBLP_conf_pldi_PolikarpovaKS16": {"venue": null},
+    "DBLP_conf_pldi_YangHASFC16": {"venue": null},
+    "DBLP_conf_sigsoft_JeonQFS15": {"venue": null},
+    "conf_iclr_gupta2025sparling": {"venue": null},
+    "DBLP_journals_pacmpl_FeserM0S20": {"venue": "PL’18, January 01–03, 2018, New York, NY, USA"}
+  },
+  "volume_papers": {
+    "DBLP_conf_tacas_InalaPQLS17": [
+      {"start_page": 17, "title": "Contents – Part I", "authors": []}
+    ],
+    "DBLP_conf_cav_KongSG18": [
+      {"start_page": 462, "remove": true}
+    ],
+    "DBLP_conf_cav_BraggFRS21": [
+      {"start_page": 247,
+       "title": "Scalable Polyhedral Verification of Recurrent Neural Networks",
+       "authors": ["Wonryong Ryou", "Jiayu Chen", "Mislav Balunovic", "Gagandeep Singh", "Andrei Dan", "Martin Vechev"]}
+    ]
+  }
+}

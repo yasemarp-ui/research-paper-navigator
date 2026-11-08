@@ -1,0 +1,45 @@
+{
+  "catalog_version": 1,
+  "strategy_tag": "recursive-3000-100",
+  "chunking": {
+    "strategy": "recursive",
+    "chunk_size": 3000,
+    "overlap": 100
+  },
+  "config_hash": "45f71ae92638",
+  "created_at": "2026-11-01T01:21:58+00:00",
+  "pypdf_version": "6.16.2",
+  "text_clean_version": 1,
+  "chunker_version": 2,
+  "min_chunk_chars": 300,
+  "stats": {
+    "papers": 153,
+    "included_papers": 153,
+    "pages": 6108,
+    "chunks": 7642,
+    "included_chunks": 7642,
+    "est_tokens": 4791494,
+    "chunk_chars": {
+      "min": 306,
+      "median": 2712.0,
+      "max": 3314
+    },
+    "pages_per_chunk": {
+      "min": 1,
+      "median": 2.0,
+      "max": 6
+    },
+    "paragraphs_per_chunk": {
+      "min": 1,
+      "median": 6.0,
+      "max": 69
+    },
+    "chunks_with_section": 7297,
+    "doc_types": {
+      "paper": 80,
+      "front_matter": 19,
+      "other": 1,
+      "preprint": 53
+    }
+  }
+}

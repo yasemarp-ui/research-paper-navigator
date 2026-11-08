@@ -1,0 +1,1665 @@
+{
+  "DBLP_conf_cav_BraggFRS21": {
+    "sha256": "6ea7e4c4d00134ff2ecf5b3f025be8667bdb65d4b7049c6b50e308c5c43542ce",
+    "version": 1,
+    "pages": 939,
+    "back_matter_start": 938,
+    "papers": [
+      {
+        "start_page": 26,
+        "title": "NNRepair: Constraint-Based Repair of Neural Network Classifiers",
+        "authors": [
+          "Muhammad Usman",
+          "Divya Gopinath",
+          "Youcheng Sun",
+          "Yannic Noller",
+          "Corina S. Păsăreanu"
+        ]
+      },
+      {
+        "start_page": 49,
+        "title": "Balancing Automation and Control for Formal Verification of Microprocessors",
+        "authors": [
+          "Shilpi Goel",
+          "Anna Slobodova",
+          "Rob Sumners",
+          "Sol Swords"
+        ]
+      },
+      {
+        "start_page": 69,
+        "title": "Algebraic Program Analysis",
+        "authors": [
+          "Zachary Kincaid",
+          "Thomas Reps",
+          "John Cyphert"
+        ]
+      },
+      {
+        "start_page": 107,
+        "title": "Programmable Program Synthesis",
+        "authors": [
+          "Loris D’Antoni",
+          "Qinheping Hu",
+          "Jinwoo Kim",
+          "Thomas Reps"
+        ]
+      },
+      {
+        "start_page": 133,
+        "title": "Deductive Synthesis of Programs with Pointers: Techniques, Challenges, Opportunities",
+        "authors": [
+          "Shachar Itzhaky",
+          "Hila Peleg",
+          "Nadia Polikarpova",
+          "Reuben N. S. Rowe",
+          "Ilya Sergey"
+        ]
+      },
+      {
+        "start_page": 159,
+        "title": "DNNV: A Framework for Deep Neural Network Verification",
+        "authors": [
+          "David Shriver",
+          "Sebastian Elbaum",
+          "Matthew B. Dwyer"
+        ]
+      },
+      {
+        "start_page": 173,
+        "title": "Robustness Verification of Quantum Classifiers",
+        "authors": [
+          "Ji Guan",
+          "Wang Fang",
+          "Mingsheng Ying"
+        ]
+      },
+      {
+        "start_page": 197,
+        "title": "BDD4BNN: A BDD-Based Quantitative Analysis Framework for Binarized Neural Networks",
+        "authors": [
+          "Yedi Zhang",
+          "Zhe Zhao",
+          "Guangke Chen",
+          "Fu Song",
+          "Taolue Chen"
+        ]
+      },
+      {
+        "start_page": 223,
+        "title": "Automated Safety Verification of Programs Invoking Neural Networks",
+        "authors": [
+          "Maria Christakis",
+          "Hasan Ferit Eniser",
+          "Holger Hermanns",
+          "Jörg Hoffmann",
+          "Yugesh Kothari",
+          "Jianlin Li",
+          "Jorge A. Navas",
+          "Valentin Wüstholz"
+        ]
+      },
+      {
+        "start_page": 271,
+        "title": "Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning",
+        "authors": [
+          "Radoslav Ivanov",
+          "Taylor Carpenter",
+          "James Weimer",
+          "Rajeev Alur",
+          "George Pappas",
+          "Insup Lee"
+        ]
+      },
+      {
+        "start_page": 285,
+        "title": "Robustness Verification of Semantic Segmentation Neural Networks Using Relaxed Reachability",
+        "authors": [
+          "Hoang-Dung Tran",
+          "Neelanjana Pal",
+          "Patrick Musau",
+          "Diego Manzanas Lopez",
+          "Nathaniel Hamilton",
+          "Xiaodong Yang",
+          "Stanley Bak",
+          "Taylor T. Johnson"
+        ]
+      },
+      {
+        "start_page": 309,
+        "title": "PEREGRiNN: Penalized-Relaxation Greedy Neural Network Verifier",
+        "authors": [
+          "Haitham Khedr",
+          "James Ferlez",
+          "Yasser Shoukry"
+        ]
+      },
+      {
+        "start_page": 324,
+        "title": "Isla: Integrating Full-Scale ISA Semantics and Axiomatic Concurrency Models",
+        "authors": [
+          "Alasdair Armstrong",
+          "Brian Campbell",
+          "Ben Simner",
+          "Christopher Pulte",
+          "Peter Sewell"
+        ]
+      },
+      {
+        "start_page": 338,
+        "title": "Summing up Smart Transitions",
+        "authors": [
+          "Neta Elad",
+          "Sophie Rain",
+          "Neil Immerman",
+          "Laura Kovács",
+          "Mooly Sagiv"
+        ]
+      },
+      {
+        "start_page": 362,
+        "title": "Stateless Model Checking Under a Reads-Value-From Equivalence",
+        "authors": [
+          "Pratyush Agarwal",
+          "Krishnendu Chatterjee",
+          "Shreya Pathak",
+          "Andreas Pavlogiannis",
+          "Viktor Toman"
+        ]
+      },
+      {
+        "start_page": 388,
+        "title": "Gobra: Modular Specification and Verification of Go Programs",
+        "authors": [
+          "Felix A. Wolf",
+          "Linard Arquint",
+          "Martin Clochard",
+          "Wytse Oortwijn",
+          "João C. Pereira",
+          "Peter Müller"
+        ]
+      },
+      {
+        "start_page": 401,
+        "title": "Delay-Bounded Scheduling Without Delay!",
+        "authors": [
+          "Andrew Johnson",
+          "Thomas Wahl"
+        ]
+      },
+      {
+        "start_page": 424,
+        "title": "Checking Data-Race Freedom of GPU Kernels, Compositionally",
+        "authors": [
+          "Tiago Cogumbreiro",
+          "Julien Lange",
+          "Dennis Liew Zhen Rong",
+          "Hannah Zicarelli"
+        ]
+      },
+      {
+        "start_page": 448,
+        "title": "GENMC: A Model Checker for Weak Memory Models",
+        "authors": [
+          "Michalis Kokologiannakis",
+          "Viktor Vafeiadis"
+        ]
+      },
+      {
+        "start_page": 463,
+        "title": "Synthesizing Invariant Barrier Certificates via Difference-of-Convex Programming",
+        "authors": [
+          "Qiuye Wang",
+          "Mingshuai Chen",
+          "Baixue",
+          "Naijun Zhan",
+          "Joost-Pieter Katoen"
+        ]
+      },
+      {
+        "start_page": 487,
+        "title": "An Iterative Scheme of Safe Reinforcement Learning for Nonlinear Systems via Barrier Certificate Generation",
+        "authors": [
+          "Zhengfeng Yang",
+          "Yidan Zhang",
+          "Wang Lin",
+          "Xia Zeng",
+          "Xiaochao Tang",
+          "Zhenbing Zeng",
+          "Zhiming Liu"
+        ]
+      },
+      {
+        "start_page": 511,
+        "title": "HybridSynchAADL: Modeling and Formal Analysis of Virtually Synchronous CPSs in AADL",
+        "authors": [
+          "Jaehun Lee",
+          "Sharon Kim",
+          "Kyungmin Bae",
+          "Peter Csaba Ölveczky"
+        ]
+      },
+      {
+        "start_page": 525,
+        "title": "Computing Bottom SCCs Symbolically Using Transition Guided Reduction",
+        "authors": [
+          "Nikola Beneš",
+          "Luboš Brim",
+          "Samuel Pastva",
+          "David Šafránek"
+        ]
+      },
+      {
+        "start_page": 549,
+        "title": "Implicit Semi-Algebraic Abstraction for Polynomial Dynamical Systems",
+        "authors": [
+          "Sergio Mover",
+          "Alessandro Cimatti",
+          "Alberto Griggio",
+          "Ahmed Irfan",
+          "Stefano Tonetta"
+        ]
+      },
+      {
+        "start_page": 572,
+        "title": "IMITATOR 3: Synthesis of Timing Parameters Beyond Decidability",
+        "authors": [
+          "Étienne André"
+        ]
+      },
+      {
+        "start_page": 586,
+        "title": "Formally Verified Switching Logic for Recoverability of Aircraft Controller",
+        "authors": [
+          "Ratan Lal",
+          "Aaron McKinnis",
+          "Dustin Hauptman",
+          "Shawn Keshmiri",
+          "Pavithra Prabhakar"
+        ]
+      },
+      {
+        "start_page": 600,
+        "title": "SceneChecker: Boosting Scenario Verification Using Symmetry Abstractions",
+        "authors": [
+          "Hussein Sibai",
+          "Yangge Li",
+          "Sayan Mitra"
+        ]
+      },
+      {
+        "start_page": 615,
+        "title": "Effective Hybrid System Falsification Using Monte Carlo Tree Search Guided by QB-Robustness",
+        "authors": [
+          "Zhenya Zhang",
+          "Deyun Lyu",
+          "Paolo Arcaini",
+          "Lei Ma",
+          "Ichiro Hasuo",
+          "Jianjun Zhao"
+        ]
+      },
+      {
+        "start_page": 639,
+        "title": "Fast Zone-Based Algorithms for Reachability in Pushdown Timed Automata",
+        "authors": [
+          "S. Akshay",
+          "Paul Gastin",
+          "Karthik R. Prakash"
+        ]
+      },
+      {
+        "start_page": 664,
+        "title": "Verified Cryptographic Code for Everybody",
+        "authors": [
+          "Brett Boston",
+          "Samuel Breese",
+          "Joey Dodds",
+          "Mike Dodds",
+          "Brian Huffman",
+          "Adam Petcher",
+          "Andrei Stefanescu"
+        ]
+      },
+      {
+        "start_page": 688,
+        "title": "Not All Bugs Are Created Equal, But Robust Reachability Can Tell the Difference",
+        "authors": [
+          "Guillaume Girol",
+          "Benjamin Farinier",
+          "Sébastien Bardin"
+        ]
+      },
+      {
+        "start_page": 713,
+        "title": "A Temporal Logic for Asynchronous Hyperproperties",
+        "authors": [
+          "Jan Baumeister",
+          "Norine Coenen",
+          "Borzoo Bonakdarpour",
+          "Bernd Finkbeiner",
+          "César Sánchez"
+        ]
+      },
+      {
+        "start_page": 737,
+        "title": "Product Programs in the Wild: Retrofitting Program Verifiers to Check Information Flow Security",
+        "authors": [
+          "Marco Eilers",
+          "Severin Meier",
+          "Peter Müller"
+        ]
+      },
+      {
+        "start_page": 761,
+        "title": "Constraint-Based Relational Verification",
+        "authors": [
+          "Hiroshi Unno",
+          "Tachio Terauchi",
+          "Eric Koskinen"
+        ]
+      },
+      {
+        "start_page": 786,
+        "title": "Pre-deployment Security Assessment for Cloud Services Through Semantic Reasoning",
+        "authors": [
+          "Claudia Cauli",
+          "Meng Li",
+          "Nir Piterman",
+          "Oksana Tkachuk"
+        ]
+      },
+      {
+        "start_page": 801,
+        "title": "Synthesis with Asymptotic Resource Bounds",
+        "authors": [
+          "Qinheping Hu",
+          "John Cyphert",
+          "Loris D’Antoni",
+          "Thomas Reps"
+        ]
+      },
+      {
+        "start_page": 826,
+        "title": "Program Sketching by Automatically Generating Mocks from Tests",
+        "authors": [
+          "Nate F. F. Bragg",
+          "Jeffrey S. Foster",
+          "Cody Roux",
+          "Armando Solar-Lezama"
+        ]
+      },
+      {
+        "start_page": 850,
+        "title": "Counterexample-Guided Partial Bounding for Recursive Function Synthesis",
+        "authors": [
+          "Azadeh Farzan",
+          "Victor Nicolet"
+        ]
+      },
+      {
+        "start_page": 874,
+        "title": "PAYNT: A Tool for Inductive Synthesis of Probabilistic Programs",
+        "authors": [
+          "Roman Andriushchenko",
+          "Milan Češka",
+          "Sebastian Junges",
+          "Joost-Pieter Katoen",
+          "Simon Stupinský"
+        ]
+      },
+      {
+        "start_page": 888,
+        "title": "Adapting Behaviors via Reactive Synthesis",
+        "authors": [
+          "Gal Amram",
+          "Suguman Bansal",
+          "Dror Fried",
+          "Lucas Martinelli Tabajara",
+          "Moshe Y. Vardi",
+          "Gera Weiss"
+        ]
+      },
+      {
+        "start_page": 912,
+        "title": "Causality-Based Game Solving",
+        "authors": [
+          "Christel Baier",
+          "Norine Coenen",
+          "Bernd Finkbeiner",
+          "Florian Funke",
+          "Simon Jantsch",
+          "Julian Siber"
+        ]
+      }
+    ]
+  },
+  "DBLP_conf_cav_GaoKDRSAK19": {
+    "sha256": "c6fbe472b5016b3951dc44e9318cf11e18721d3e026729d89fe9ee3eed88edf9",
+    "version": 1,
+    "pages": 558,
+    "back_matter_start": 556,
+    "papers": [
+      {
+        "start_page": 21,
+        "title": "Satisfiability Checking for Mission-Time LTL",
+        "authors": [
+          "Jianwen Li",
+          "Moshe Y. Vardi",
+          "Kristin Y. Rozier"
+        ]
+      },
+      {
+        "start_page": 41,
+        "title": "High-Level Abstractions for Simplifying Extended String Constraints in SMT",
+        "authors": [
+          "Andrew Reynolds",
+          "Andres Nötzli",
+          "Clark Barrett",
+          "Cesare Tinelli"
+        ]
+      },
+      {
+        "start_page": 61,
+        "title": "Alternating Automata Modulo First Order Theories",
+        "authors": [
+          "Radu Iosif",
+          "Xiao Xu"
+        ]
+      },
+      {
+        "start_page": 82,
+        "title": "Q3B: An Efficient BDD-based SMT Solver for Quantified Bit-Vectors",
+        "authors": [
+          "Martin Jonáš",
+          "Jan Strejček"
+        ]
+      },
+      {
+        "start_page": 92,
+        "title": "CVC 4SY: Smart and Fast Term Enumeration for Syntax-Guided Synthesis",
+        "authors": [
+          "Andrew Reynolds",
+          "Haniel Barbosa",
+          "Andres Nötzli",
+          "Clark Barrett",
+          "Cesare Tinelli"
+        ]
+      },
+      {
+        "start_page": 102,
+        "title": "Incremental Determinization for Quantifier Elimination and Functional Synthesis",
+        "authors": [
+          "Markus N. Rabe"
+        ]
+      },
+      {
+        "start_page": 114,
+        "title": "Loop Summarization with Rational Vector Addition Systems",
+        "authors": [
+          "Jake Silverman",
+          "Zachary Kincaid"
+        ]
+      },
+      {
+        "start_page": 133,
+        "title": "Invertibility Conditions for Floating-Point Formulas",
+        "authors": [
+          "Martin Brain",
+          "Aina Niemetz",
+          "Mathias Preiner",
+          "Andrew Reynolds",
+          "Clark Barrett",
+          "Cesare Tinelli"
+        ]
+      },
+      {
+        "start_page": 154,
+        "title": "Numerically-Robust Inductive Proof Rules for Continuous Dynamical Systems",
+        "authors": [
+          "Sicun Gao",
+          "James Kapinski",
+          "Jyotirmoy Deshmukh",
+          "Nima Roohi",
+          "Armando Solar-Lezama",
+          "Nikos Arechiga",
+          "Soonho Kong"
+        ]
+      },
+      {
+        "start_page": 172,
+        "title": "Icing: Supporting Fast-Math Style Optimizations in a Verified Compiler",
+        "authors": [
+          "Heiko Becker",
+          "Eva Darulova",
+          "Magnus O. Myreen",
+          "Zachary Tatlock"
+        ]
+      },
+      {
+        "start_page": 191,
+        "title": "Sound Approximation of Programs with Elementary Functions",
+        "authors": [
+          "Eva Darulova",
+          "Anastasia Volkova"
+        ]
+      },
+      {
+        "start_page": 202,
+        "title": "Formal Verification of Quantum Algorithms Using Quantum Hoare Logic",
+        "authors": [
+          "Junyi Liu",
+          "Bohua Zhan",
+          "Shuling Wang",
+          "Shenggang Ying",
+          "Tao Liu",
+          "Yangjia Li",
+          "Mingsheng Ying",
+          "Naijun Zhan"
+        ]
+      },
+      {
+        "start_page": 223,
+        "title": "SecCSL: Security Concurrent Separation Logic",
+        "authors": [
+          "Gidon Ernst",
+          "Toby Murray"
+        ]
+      },
+      {
+        "start_page": 246,
+        "title": "Reachability Analysis for AWS-Based Networks",
+        "authors": [
+          "John Backes",
+          "Sam Bayless",
+          "Byron Cook",
+          "Catherine Dodge",
+          "Andrew Gacek",
+          "Alan J. Hu",
+          "Temesghen Kahsai",
+          "Bill Kocik",
+          "Evgenii Kotelnikov",
+          "Jure Kukovec",
+          "Sean McLaughlin",
+          "Jason Reed",
+          "Neha Rungta",
+          "John Sizemore",
+          "Mark Stalzer",
+          "Preethi Srinivasan",
+          "Pavle Subotić",
+          "Carsten Varming",
+          "Blake Whaley"
+        ]
+      },
+      {
+        "start_page": 258,
+        "title": "Verification of Threshold-Based Distributed Algorithms by Decomposition to Decidable Logics",
+        "authors": [
+          "Idan Berkovits",
+          "Marijana Lazić",
+          "Giuliano Losa",
+          "Oded Padon",
+          "Sharon Shoham"
+        ]
+      },
+      {
+        "start_page": 280,
+        "title": "Gradual Consistency Checking",
+        "authors": [
+          "Rachid Zennou",
+          "Ahmed Bouajjani",
+          "Constantin Enea",
+          "Mohammed Erradi"
+        ]
+      },
+      {
+        "start_page": 299,
+        "title": "Checking Robustness Against Snapshot Isolation",
+        "authors": [
+          "Sidi Mohamed Beillahi",
+          "Ahmed Bouajjani",
+          "Constantin Enea"
+        ]
+      },
+      {
+        "start_page": 318,
+        "title": "Efficient Verification of Network Fault Tolerance via Counterexample-Guided Refinement",
+        "authors": [
+          "Nick Giannarakis",
+          "Ryan Beckett",
+          "Ratul Mahajan",
+          "David Walker"
+        ]
+      },
+      {
+        "start_page": 337,
+        "title": "On the Complexity of Checking Consistency for Replicated Data Types",
+        "authors": [
+          "Ranadeep Biswas",
+          "Michael Emmi",
+          "Constantin Enea"
+        ]
+      },
+      {
+        "start_page": 357,
+        "title": "Communication-Closed Asynchronous Protocols",
+        "authors": [
+          "Andrei Damian",
+          "Cezara Drăgoi",
+          "Alexandru Militaru",
+          "Josef Widder"
+        ]
+      },
+      {
+        "start_page": 378,
+        "title": "Interpolating Strong Induction",
+        "authors": [
+          "Hari Govind Vediramana Krishnan",
+          "Yakir Vizel",
+          "Vijay Ganesh",
+          "Arie Gurfinkel"
+        ]
+      },
+      {
+        "start_page": 397,
+        "title": "Verifying Asynchronous Event-Driven Programs Using Partial Abstract Transformers",
+        "authors": [
+          "Peizun Liu",
+          "Thomas Wahl",
+          "Akash Lal"
+        ]
+      },
+      {
+        "start_page": 416,
+        "title": "Inferring Inductive Invariants from Phase Structures",
+        "authors": [
+          "Yotam M. Y. Feldman",
+          "James R. Wilcox",
+          "Sharon Shoham",
+          "Mooly Sagiv"
+        ]
+      },
+      {
+        "start_page": 437,
+        "title": "Termination of Triangular Integer Loops is Decidable",
+        "authors": [
+          "Florian Frohn",
+          "Jürgen Giesl"
+        ]
+      },
+      {
+        "start_page": 456,
+        "title": "AliveInLean: A Verified LLVM Peephole Optimization Verifier",
+        "authors": [
+          "Juneyoung Lee",
+          "Chung-Kil Hur",
+          "Nuno P. Lopes"
+        ]
+      },
+      {
+        "start_page": 468,
+        "title": "Automated Parameterized Verification of CRDTs",
+        "authors": [
+          "Kartik Nagar",
+          "Suresh Jagannathan"
+        ]
+      },
+      {
+        "start_page": 487,
+        "title": "What’s Wrong with On-the-Fly Partial Order Reduction",
+        "authors": [
+          "Stephen F. Siegel"
+        ]
+      },
+      {
+        "start_page": 505,
+        "title": "Integrating Formal Schedulability Analysis into a Verified OS Kernel",
+        "authors": [
+          "Xiaojie Guo",
+          "Maxime Lesourd",
+          "Mengqi Liu",
+          "Lionel Rieg",
+          "Zhong Shao"
+        ]
+      },
+      {
+        "start_page": 524,
+        "title": "Rely-Guarantee Reasoning About Concurrent Memory Management in Zephyr RTOS",
+        "authors": [
+          "Yongwang Zhao",
+          "David Sanán"
+        ]
+      },
+      {
+        "start_page": 543,
+        "title": "Violat: Generating Tests of Observational Refinement for Concurrent Objects",
+        "authors": [
+          "Michael Emmi",
+          "Constantin Enea"
+        ]
+      }
+    ]
+  },
+  "DBLP_conf_cav_KongSG18": {
+    "sha256": "3e19fcb28c9a4184099de9e394b82912414cb75838c5c4619f2e0b1916afc8d1",
+    "version": 1,
+    "pages": 553,
+    "back_matter_start": 551,
+    "papers": [
+      {
+        "start_page": 21,
+        "title": "Let this Graph Be Your Witness! An Attestor for Verifying Java Pointer Programs",
+        "authors": [
+          "Hannah Arndt",
+          "Christina Jansen",
+          "Joost-Pieter Katoen",
+          "Christoph Matheja",
+          "Thomas Noll"
+        ]
+      },
+      {
+        "start_page": 30,
+        "title": "MaxSMT-Based Type Inference for Python 3",
+        "authors": [
+          "Mostafa Hassan",
+          "Caterina Urban",
+          "Marco Eilers",
+          "Peter Müller"
+        ]
+      },
+      {
+        "start_page": 38,
+        "title": "The JKind Model Checker",
+        "authors": [
+          "Andrew Gacek",
+          "John Backes",
+          "Mike Whalen",
+          "Lucas Wagner",
+          "Elaheh Ghassabani"
+        ]
+      },
+      {
+        "start_page": 46,
+        "title": "The DeepSec Prover",
+        "authors": [
+          "Vincent Cheval",
+          "Steve Kremer",
+          "Itsaka Rakotonirina"
+        ]
+      },
+      {
+        "start_page": 55,
+        "title": "SimpleCAR: An Efficient Bug-Finding Tool Based on Approximate Reachability",
+        "authors": [
+          "Jianwen Li",
+          "Rohit Dureja",
+          "Geguang Pu",
+          "Kristin Yvonne Rozier",
+          "Moshe Y. Vardi"
+        ]
+      },
+      {
+        "start_page": 63,
+        "title": "StringFuzz: A Fuzzer for String Solvers",
+        "authors": [
+          "Dmitry Blotsky",
+          "Federico Mora",
+          "Murphy Berzish",
+          "Yunhui Zheng",
+          "Ifaz Kabir",
+          "Vijay Ganesh"
+        ]
+      },
+      {
+        "start_page": 71,
+        "title": "Permission Inference for Array Programs",
+        "authors": [
+          "Jérôme Dohrau",
+          "Alexander J. Summers",
+          "Caterina Urban",
+          "Severin Münger",
+          "Peter Müller"
+        ]
+      },
+      {
+        "start_page": 91,
+        "title": "Program Analysis Is Harder Than Verification: A Computability Perspective",
+        "authors": [
+          "Patrick Cousot",
+          "Roberto Giacobazzi",
+          "Francesco Ranzato"
+        ]
+      },
+      {
+        "start_page": 113,
+        "title": "Automata vs Linear-Programming Discounted-Sum Inclusion",
+        "authors": [
+          "Suguman Bansal",
+          "Swarat Chaudhuri",
+          "Moshe Y. Vardi"
+        ]
+      },
+      {
+        "start_page": 131,
+        "title": "Model Checking Indistinguishability of Randomized Security Protocols",
+        "authors": [
+          "Matthew S. Bauer",
+          "Rohit Chadha",
+          "A. Prasad Sistla",
+          "Mahesh Viswanathan"
+        ]
+      },
+      {
+        "start_page": 150,
+        "title": "Lazy Self-composition for Security Verification",
+        "authors": [
+          "Weikun Yang",
+          "Yakir Vizel",
+          "Pramod Subramanyan",
+          "Aarti Gupta",
+          "Sharad Malik"
+        ]
+      },
+      {
+        "start_page": 171,
+        "title": "SCINFER: Refinement-Based Verification of Software Countermeasures Against Side-Channel Attacks",
+        "authors": [
+          "Jun Zhang",
+          "Pengfei Gao",
+          "Fu Song",
+          "Chao Wang"
+        ]
+      },
+      {
+        "start_page": 192,
+        "title": "Symbolic Algorithms for Graphs and Markov Decision Processes with Fairness Objectives",
+        "authors": [
+          "Krishnendu Chatterjee",
+          "Monika Henzinger",
+          "Veronika Loitzenbauer",
+          "Simin Oraee",
+          "Viktor Toman"
+        ]
+      },
+      {
+        "start_page": 212,
+        "title": "Attracting Tangles to Solve Parity Games",
+        "authors": [
+          "Tom van Dijk"
+        ]
+      },
+      {
+        "start_page": 231,
+        "title": "Delta-Decision Procedures for Exists-Forall Problems over the Reals",
+        "authors": [
+          "Soonho Kong",
+          "Armando Solar-Lezama",
+          "Sicun Gao"
+        ]
+      },
+      {
+        "start_page": 248,
+        "title": "Solving Quantified Bit-Vectors Using Invertibility Conditions",
+        "authors": [
+          "Aina Niemetz",
+          "Mathias Preiner",
+          "Andrew Reynolds",
+          "Clark Barrett",
+          "Cesare Tinelli"
+        ]
+      },
+      {
+        "start_page": 268,
+        "title": "Understanding and Extending Incremental Determinization for 2QBF",
+        "authors": [
+          "Markus N. Rabe",
+          "Leander Tentrup",
+          "Cameron Rasmussen",
+          "Sanjit A. Seshia"
+        ]
+      },
+      {
+        "start_page": 287,
+        "title": "The Proof Complexity of SMT Solvers",
+        "authors": [
+          "Robert Robere",
+          "Antonina Kolokolova",
+          "Vijay Ganesh"
+        ]
+      },
+      {
+        "start_page": 306,
+        "title": "Model Generation for Quantified Formulas: A Taint-Based Approach",
+        "authors": [
+          "Benjamin Farinier",
+          "Sébastien Bardin",
+          "Richard Bonichon",
+          "Marie-Laure Potet"
+        ]
+      },
+      {
+        "start_page": 327,
+        "title": "Partial Order Aware Concurrency Sampling",
+        "authors": [
+          "Xinhao Yuan",
+          "Junfeng Yang",
+          "Ronghui Gu"
+        ]
+      },
+      {
+        "start_page": 346,
+        "title": "Reasoning About TSO Programs Using Reduction and Abstraction",
+        "authors": [
+          "Ahmed Bouajjani",
+          "Constantin Enea",
+          "Suha Orhun Mutluergil",
+          "Serdar Tasiran"
+        ]
+      },
+      {
+        "start_page": 364,
+        "title": "Quasi-Optimal Partial Order Reduction",
+        "authors": [
+          "Huyen T. T. Nguyen",
+          "César Rodríguez",
+          "Marcelo Sousa",
+          "Camille Coti",
+          "Laure Petrucci"
+        ]
+      },
+      {
+        "start_page": 382,
+        "title": "On the Completeness of Verifying Message Passing Programs Under Bounded Asynchrony",
+        "authors": [
+          "Ahmed Bouajjani",
+          "Constantin Enea",
+          "Kailiang Ji",
+          "Shaz Qadeer"
+        ]
+      },
+      {
+        "start_page": 402,
+        "title": "Constrained Dynamic Partial Order Reduction",
+        "authors": [
+          "Elvira Albert",
+          "Miguel Gómez-Zamalloa",
+          "Miguel Isabel",
+          "Albert Rubio"
+        ]
+      },
+      {
+        "start_page": 422,
+        "title": "Formal Verification of a Vehicle-to-Vehicle (V2V) Messaging System",
+        "authors": [
+          "Mark Tullsen",
+          "Lee Pike",
+          "Nathan Collins",
+          "Aaron Tomb"
+        ]
+      },
+      {
+        "start_page": 439,
+        "title": "Continuous Formal Verification of Amazon s2n",
+        "authors": [
+          "Andrey Chudnov",
+          "Nathan Collins",
+          "Byron Cook",
+          "Joey Dodds",
+          "Brian Huffman",
+          "Colm MacCárthaigh",
+          "Stephen Magill",
+          "Eric Mertens",
+          "Eric Mullen",
+          "Serdar Tasiran",
+          "Aaron Tomb",
+          "Eddy Westbrook"
+        ]
+      },
+      {
+        "start_page": 456,
+        "title": "Symbolic Liveness Analysis of Real-World Software",
+        "authors": [
+          "Daniel Schemmel",
+          "Julian Büning",
+          "Oscar Soria Dustmann",
+          "Thomas Noll",
+          "Klaus Wehrle"
+        ]
+      },
+      {
+        "start_page": 462,
+        "title": "Symbolic Liveness Analysis of Real-World Software",
+        "authors": []
+      },
+      {
+        "start_page": 476,
+        "title": "Model Checking Boot Code from AWS Data Centers",
+        "authors": [
+          "Byron Cook",
+          "Kareem Khazem",
+          "Daniel Kroening",
+          "Serdar Tasiran",
+          "Michael Tautschnig",
+          "Mark R. Tuttle"
+        ]
+      },
+      {
+        "start_page": 496,
+        "title": "Android Stack Machine",
+        "authors": [
+          "Taolue Chen",
+          "Jinlong He",
+          "Fu Song",
+          "Guozhen Wang",
+          "Zhilin Wu",
+          "Jun Yan"
+        ]
+      },
+      {
+        "start_page": 514,
+        "title": "Formally Verified Montgomery Multiplication",
+        "authors": [
+          "Christoph Walther"
+        ]
+      },
+      {
+        "start_page": 532,
+        "title": "Inner and Outer Approximating Flowpipes for Delay Differential Equations",
+        "authors": [
+          "Eric Goubault",
+          "Sylvie Putot",
+          "Lorenz Sahlmann"
+        ]
+      }
+    ]
+  },
+  "DBLP_conf_snapl_2015": {
+    "sha256": "b235c6298c0951a47497f89b0ae951526faf7b75d1d48c20369d6029e07d15d6",
+    "version": 1,
+    "pages": 350,
+    "back_matter_start": null,
+    "papers": [
+      {
+        "start_page": 15,
+        "title": "Coupling Memory and Computation for Locality Management",
+        "authors": [
+          "Umut A. Acar",
+          "Guy Blelloch",
+          "Matthew Fluet",
+          "Stefan K. Muller",
+          "Ram Raghunathan"
+        ]
+      },
+      {
+        "start_page": 29,
+        "title": "Verified Compilers for a Multi-Language World",
+        "authors": [
+          "Amal Ahmed"
+        ]
+      },
+      {
+        "start_page": 46,
+        "title": "Growing a Software Language for Hardware Design",
+        "authors": [
+          "Joshua Auerbach",
+          "David F. Bacon",
+          "Perry Cheng",
+          "Stephen J. Fink",
+          "Rodric Rabbah",
+          "Sunil Shukla"
+        ]
+      },
+      {
+        "start_page": 55,
+        "title": "Programming with “Big Code”: Lessons, Techniques and Applications",
+        "authors": [
+          "Pavol Bielik",
+          "Veselin Raychev",
+          "Martin Vechev"
+        ]
+      },
+      {
+        "start_page": 65,
+        "title": "Bridging the Gap Between General-Purpose and Domain-Specific Compilers with Synthesis",
+        "authors": [
+          "Alvin Cheung",
+          "Shoaib Kamil",
+          "Armando Solar-Lezama"
+        ]
+      },
+      {
+        "start_page": 77,
+        "title": "Yedalog: Exploring Knowledge at Scale",
+        "authors": [
+          "Brian Chin",
+          "Daniel von Dincklage",
+          "Vuk Ercegovac",
+          "Peter Hawkins",
+          "Mark S. Miller",
+          "Franz Och",
+          "Christopher Olston",
+          "Fernando Pereira"
+        ]
+      },
+      {
+        "start_page": 93,
+        "title": "The Design of Terra: Harnessing the Best Features of High-Level and Low-Level Languages",
+        "authors": [
+          "Zachary DeVito",
+          "Pat Hanrahan"
+        ]
+      },
+      {
+        "start_page": 104,
+        "title": "The Need for Language Support for Fault-Tolerant Distributed Systems",
+        "authors": [
+          "Cezara Drăgoi",
+          "Thomas A. Henzinger",
+          "Damien Zufferey"
+        ]
+      },
+      {
+        "start_page": 117,
+        "title": "Toward a Dependability Case Language and Workflow for a Radiation Therapy System",
+        "authors": [
+          "Michael D. Ernst",
+          "Dan Grossman",
+          "Jon Jacky",
+          "Calvin Loncaric",
+          "Stuart Pernsteiner",
+          "Zachary Tatlock",
+          "Emina Torlak",
+          "Xi Wang"
+        ]
+      },
+      {
+        "start_page": 127,
+        "title": "The Racket Manifesto",
+        "authors": [
+          "Matthias Felleisen",
+          "Robert Bruce Findler",
+          "Matthew Flatt",
+          "Shriram Krishnamurthi",
+          "Eli Barzilay",
+          "Jay McCarthy",
+          "Sam Tobin-Hochstadt"
+        ]
+      },
+      {
+        "start_page": 143,
+        "title": "A Theory AB Toolbox",
+        "authors": [
+          "Marco Gaboardi",
+          "Justin Hsu"
+        ]
+      },
+      {
+        "start_page": 154,
+        "title": "Tracking the Flow of Ideas through the Programming Languages Literature",
+        "authors": [
+          "Michael Greenberg",
+          "Kathleen Fisher",
+          "David Walker"
+        ]
+      },
+      {
+        "start_page": 170,
+        "title": "InterPoll: Crowd-Sourced Internet Polls",
+        "authors": [
+          "Benjamin Livshits",
+          "Todd Mytkowicz"
+        ]
+      },
+      {
+        "start_page": 191,
+        "title": "The Silently Shifting Semicolon",
+        "authors": [
+          "Daniel Marino",
+          "Todd Millstein",
+          "Madanlal Musuvathi",
+          "Satish Narayanasamy",
+          "Abhayendra Singh"
+        ]
+      },
+      {
+        "start_page": 204,
+        "title": "Everything You Want to Know About Pointer-Based Checking",
+        "authors": [
+          "Santosh Nagarakatte",
+          "Milo M. K. Martin",
+          "Steve Zdancewic"
+        ]
+      },
+      {
+        "start_page": 223,
+        "title": "New Directions for Network Verification",
+        "authors": [
+          "Aurojit Panda",
+          "Katerina Argyraki",
+          "Mooly Sagiv",
+          "Michael Schapira",
+          "Scott Shenker"
+        ]
+      },
+      {
+        "start_page": 235,
+        "title": "A Few Lessons from the Mezzo Project",
+        "authors": [
+          "François Pottier",
+          "Jonathan Protzenko"
+        ]
+      },
+      {
+        "start_page": 252,
+        "title": "Go Meta! A Case for Generative Programming and DSLs in Performance Critical Systems",
+        "authors": [
+          "Tiark Rompf",
+          "Kevin J. Brown",
+          "HyoukJoong Lee",
+          "Arvind K. Sujeeth",
+          "Manohar Jonnalagedda",
+          "Nada Amin",
+          "Georg Ofenbeck",
+          "Alen Stojanov",
+          "Yannis Klonatos",
+          "Mohammad Dashti",
+          "Christoph Koch",
+          "Markus Püschel",
+          "Kunle Olukotun"
+        ]
+      },
+      {
+        "start_page": 276,
+        "title": "Hardware–Software Co-Design: Not Just a Cliché",
+        "authors": [
+          "Adrian Sampson",
+          "James Bornholt",
+          "Luis Ceze"
+        ]
+      },
+      {
+        "start_page": 288,
+        "title": "Refined Criteria for Gradual Typing",
+        "authors": [
+          "Jeremy G. Siek",
+          "Michael M. Vitousek",
+          "Matteo Cimini",
+          "John Tang Boyland"
+        ]
+      },
+      {
+        "start_page": 308,
+        "title": "None, One, Many – What’s the Difference, Anyhow?",
+        "authors": [
+          "Friedrich Steimann"
+        ]
+      },
+      {
+        "start_page": 323,
+        "title": "A Complement to Blame",
+        "authors": [
+          "Philip Wadler"
+        ]
+      },
+      {
+        "start_page": 335,
+        "title": "Draining the Swamp: Micro Virtual Machines as Solid Foundation for Language Development",
+        "authors": [
+          "Kunshan Wang",
+          "Yi Lin",
+          "Stephen M. Blackburn",
+          "Michael Norrish",
+          "Antony L. Hosking"
+        ]
+      }
+    ]
+  },
+  "DBLP_conf_tacas_InalaPQLS17": {
+    "sha256": "8ff46db10d9c41ccb243e9716ec1dc4f1d2225c62deca0ab8881ae7838a03fdb",
+    "version": 1,
+    "pages": 620,
+    "back_matter_start": 618,
+    "papers": [
+      {
+        "start_page": 15,
+        "title": "Validation, Synthesis and Optimization for Cyber-Physical Systems",
+        "authors": [
+          "Kim Guldstrand Larsen"
+        ]
+      },
+      {
+        "start_page": 16,
+        "title": "The Facebook Infer Static Analyser",
+        "authors": [
+          "Dino Distefano"
+        ]
+      },
+      {
+        "start_page": 26,
+        "title": "Validation, Synthesis and Optimization for Cyber-Physical Systems",
+        "authors": [
+          "Kim Guldstrand Larsen"
+        ]
+      },
+      {
+        "start_page": 45,
+        "title": "An Abstraction Technique for Parameterized Model Checking of Leader Election Protocols: Application to FTSP",
+        "authors": [
+          "Ocan Sankur",
+          "Jean-Pierre Talpin"
+        ]
+      },
+      {
+        "start_page": 63,
+        "title": "Combining String Abstract Domains for JavaScript Analysis: An Evaluation",
+        "authors": [
+          "Roberto Amadini",
+          "Alexander Jordan",
+          "Graeme Gange",
+          "François Gauthier",
+          "Peter Schachte",
+          "Harald Søndergaard",
+          "Peter J. Stuckey",
+          "Chenyi Zhang"
+        ]
+      },
+      {
+        "start_page": 80,
+        "title": "Invariant Checking of NRA Transition Systems via Incremental Reduction to LRA with EUF",
+        "authors": [
+          "Alessandro Cimatti",
+          "Alberto Griggio",
+          "Ahmed Irfan",
+          "Marco Roveri",
+          "Roberto Sebastiani"
+        ]
+      },
+      {
+        "start_page": 98,
+        "title": "Bounded Quantifier Instantiation for Checking Inductive Invariants",
+        "authors": [
+          "Yotam M.Y. Feldman",
+          "Oded Padon",
+          "Neil Immerman",
+          "Mooly Sagiv",
+          "Sharon Shoham"
+        ]
+      },
+      {
+        "start_page": 119,
+        "title": "Proving Termination Through Conditional Termination",
+        "authors": [
+          "Cristina Borralleras",
+          "Marc Brockschmidt",
+          "Daniel Larraz",
+          "Albert Oliveras",
+          "Enric Rodríguez-Carbonell",
+          "Albert Rubio"
+        ]
+      },
+      {
+        "start_page": 138,
+        "title": "Efficient Certified Resolution Proof Checking",
+        "authors": [
+          "Luís Cruz-Filipe",
+          "João Marques-Silva",
+          "Peter Schneider-Kamp"
+        ]
+      },
+      {
+        "start_page": 156,
+        "title": "Precise Widening Operators for Proving Termination by Abstract Interpretation",
+        "authors": [
+          "Nathanaël Courant",
+          "Caterina Urban"
+        ]
+      },
+      {
+        "start_page": 173,
+        "title": "Automatic Verification of Finite Precision Implementations of Linear Controllers",
+        "authors": [
+          "Junkil Park",
+          "Miroslav Pajic",
+          "Oleg Sokolsky",
+          "Insup Lee"
+        ]
+      },
+      {
+        "start_page": 191,
+        "title": "Learning Symbolic Automata",
+        "authors": [
+          "Samuel Drews",
+          "Loris D’Antoni"
+        ]
+      },
+      {
+        "start_page": 208,
+        "title": "ML for ML: Learning Cost Semantics by Experiment",
+        "authors": [
+          "Ankush Das",
+          "Jan Hoffmann"
+        ]
+      },
+      {
+        "start_page": 226,
+        "title": "A Novel Learning Algorithm for Büchi Automata Based on Family of DFAs and Classification Trees",
+        "authors": [
+          "Yong Li",
+          "Yu-Fang Chen",
+          "Lijun Zhang",
+          "Depeng Liu"
+        ]
+      },
+      {
+        "start_page": 246,
+        "title": "Hierarchical Network Formation Games",
+        "authors": [
+          "Orna Kupferman",
+          "Tami Tamir"
+        ]
+      },
+      {
+        "start_page": 264,
+        "title": "Synthesis of Recursive ADT Transformations from Reusable Templates",
+        "authors": [
+          "Jeevana Priya Inala",
+          "Nadia Polikarpova",
+          "Xiaokang Qiu",
+          "Benjamin S. Lerner",
+          "Armando Solar-Lezama"
+        ]
+      },
+      {
+        "start_page": 281,
+        "title": "Counterexample-Guided Model Synthesis",
+        "authors": [
+          "Mathias Preiner",
+          "Aina Niemetz",
+          "Armin Biere"
+        ]
+      },
+      {
+        "start_page": 298,
+        "title": "Interpolation-Based GR(1) Assumptions Refinement",
+        "authors": [
+          "Davide G. Cavezza",
+          "Dalal Alrajeh"
+        ]
+      },
+      {
+        "start_page": 316,
+        "title": "Connecting Program Synthesis and Reachability: Automatic Program Repair Using Test-Input Generation",
+        "authors": [
+          "ThanhVu Nguyen",
+          "Westley Weimer",
+          "Deepak Kapur",
+          "Stephanie Forrest"
+        ]
+      },
+      {
+        "start_page": 334,
+        "title": "Scaling Enumerative Program Synthesis via Divide and Conquer",
+        "authors": [
+          "Rajeev Alur",
+          "Arjun Radhakrishna",
+          "Abhishek Udupa"
+        ]
+      },
+      {
+        "start_page": 352,
+        "title": "Towards Parallel Boolean Functional Synthesis",
+        "authors": [
+          "S. Akshay",
+          "Supratik Chakraborty",
+          "Ajith K. John",
+          "Shetal Shah"
+        ]
+      },
+      {
+        "start_page": 369,
+        "title": "Encodings of Bounded Synthesis",
+        "authors": [
+          "Peter Faymonville",
+          "Bernd Finkbeiner",
+          "Markus N. Rabe",
+          "Leander Tentrup"
+        ]
+      },
+      {
+        "start_page": 387,
+        "title": "HQSpre – An Effective Preprocessor for QBF and DQBF",
+        "authors": [
+          "Ralf Wimmer",
+          "Sven Reimer",
+          "Paolo Marin",
+          "Bernd Becker"
+        ]
+      },
+      {
+        "start_page": 405,
+        "title": "RPP: Automatic Proof of Relational Properties by Self-composition",
+        "authors": [
+          "Lionel Blatter",
+          "Nikolai Kosmatov",
+          "Pascale Le Gall",
+          "Virgile Prevosto"
+        ]
+      },
+      {
+        "start_page": 412,
+        "title": "autoCode4: Structural Controller Synthesis",
+        "authors": [
+          "Chih-Hong Cheng",
+          "Edward A. Lee",
+          "Harald Ruess"
+        ]
+      },
+      {
+        "start_page": 420,
+        "title": "Lazy Automata Techniques for WS1S",
+        "authors": [
+          "Tomáš Fiedor",
+          "Lukáš Holík",
+          "Petr Janků",
+          "Ondřej Lengál",
+          "Tomáš Vojnar"
+        ]
+      },
+      {
+        "start_page": 439,
+        "title": "From LTL and Limit-Deterministic Büchi Automata to Deterministic Parity Automata",
+        "authors": [
+          "Javier Esparza",
+          "Jan Křetínský",
+          "Jean-François Raskin",
+          "Salomon Sickert"
+        ]
+      },
+      {
+        "start_page": 456,
+        "title": "Index Appearance Record for Transforming Rabin Automata into Parity Automata",
+        "authors": [
+          "Jan Křetínský",
+          "Tobias Meggendorfer",
+          "Clara Waldmann",
+          "Maximilian Weininger"
+        ]
+      },
+      {
+        "start_page": 474,
+        "title": "Minimization of Visibly Pushdown Automata Using Partial Max-SAT",
+        "authors": [
+          "Matthias Heizmann",
+          "Christian Schilling",
+          "Daniel Tischner"
+        ]
+      },
+      {
+        "start_page": 493,
+        "title": "CSimpl: A Rely-Guarantee-Based Framework for Verifying Concurrent Programs",
+        "authors": [
+          "David Sanán",
+          "Yongwang Zhao",
+          "Zhe Hou",
+          "Fuyuan Zhang",
+          "Alwen Tiu",
+          "Yang Liu"
+        ]
+      },
+      {
+        "start_page": 511,
+        "title": "Fair Termination for Parameterized Probabilistic Concurrent Systems",
+        "authors": [
+          "Ondřej Lengál",
+          "Anthony W. Lin",
+          "Rupak Majumdar",
+          "Philipp Rümmer"
+        ]
+      },
+      {
+        "start_page": 530,
+        "title": "Forward Bisimulations for Nondeterministic Symbolic Finite Automata",
+        "authors": [
+          "Loris D’Antoni",
+          "Margus Veanes"
+        ]
+      },
+      {
+        "start_page": 547,
+        "title": "Up-To Techniques for Weighted Systems",
+        "authors": [
+          "Filippo Bonchi",
+          "Barbara König",
+          "Sebastian Küpper"
+        ]
+      },
+      {
+        "start_page": 566,
+        "title": "Rigorous Simulation-Based Analysis of Linear Hybrid Systems",
+        "authors": [
+          "Stanley Bak",
+          "Parasara Sridhar Duggirala"
+        ]
+      },
+      {
+        "start_page": 584,
+        "title": "HARE: A Hybrid Abstraction Refinement Engine for Verifying Non-linear Hybrid Automata",
+        "authors": [
+          "Nima Roohi",
+          "Pavithra Prabhakar",
+          "Mahesh Viswanathan"
+        ]
+      },
+      {
+        "start_page": 600,
+        "title": "Counterexample-Guided Refinement of Template Polyhedra",
+        "authors": [
+          "Sergiy Bogomolov",
+          "Goran Frehse",
+          "Mirco Giacobbe",
+          "Thomas A. Henzinger"
+        ]
+      }
+    ]
+  }
+}

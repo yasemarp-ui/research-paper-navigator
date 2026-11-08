@@ -1,0 +1,61 @@
+{
+  "_how_to": [
+    "type: definition | named | author_year | comparison | out_of_scope | paraphrase | contents.",
+    "expected: a list of groups of paper ids. Each group needs one hit, so a comparison lists two groups. Empty means the system should say it cannot answer.",
+    "paraphrase_of: the id of the earlier question this one rewords (it tests the semantic cache)."
+  ],
+  "questions": [
+    {"id": "q01", "type": "definition", "question": "What is program sketching?",
+     "expected": [["DBLP_conf_aplas_Solar-Lezama09", "DBLP_conf_pldi_Solar-LezamaRBE05"]]},
+    {"id": "q02", "type": "paraphrase", "question": "Can you explain what program sketching means?", "paraphrase_of": "q01",
+     "expected": [["DBLP_conf_aplas_Solar-Lezama09", "DBLP_conf_pldi_Solar-LezamaRBE05"]]},
+    {"id": "q03", "type": "definition", "question": "What is syntax-guided synthesis (SyGuS)?",
+     "expected": [["DBLP_journals_corr_AlurFSS16", "DBLP_journals_corr_AlurFSS16a", "DBLP_journals_corr_abs-1711-11438", "DBLP_journals_fmsd_FismanSS21"]]},
+    {"id": "q04", "type": "paraphrase", "question": "What does syntax-guided synthesis mean?", "paraphrase_of": "q03",
+     "expected": [["DBLP_journals_corr_AlurFSS16", "DBLP_journals_corr_AlurFSS16a", "DBLP_journals_corr_abs-1711-11438", "DBLP_journals_fmsd_FismanSS21"]]},
+    {"id": "q05", "type": "definition", "question": "What is adaptive concretization in parallel program synthesis?",
+     "expected": [["DBLP_conf_cav_JeonQSF15", "DBLP_journals_fmsd_JeonQSF17"]]},
+    {"id": "q06", "type": "definition", "question": "What is faceted execution?",
+     "expected": [["DBLP_conf_plas_AustinYFS13", "DBLP_conf_pldi_YangHASFC16", "DBLP_journals_corr_YangHASFC15"]]},
+    {"id": "q07", "type": "definition", "question": "What is counterexample-guided inductive synthesis (CEGIS)?",
+     "expected": [["DBLP_conf_aplas_Solar-Lezama09", "DBLP_conf_cav_BraggFRS21", "DBLP_journals_corr_InalaQLS15"]]},
+
+    {"id": "q08", "type": "named", "question": "How does sk_p correct student programs?",
+     "expected": [["DBLP_conf_oopsla_PuNSB16", "DBLP_journals_corr_PuNSB16"]]},
+    {"id": "q09", "type": "named", "question": "How does LiveCodeBench avoid contamination in its evaluation?",
+     "expected": [["DBLP_conf_iclr_JainHGLYZWSSS25", "DBLP_journals_corr_abs-2403-07974"]]},
+    {"id": "q10", "type": "named", "question": "What are the two tasks in the CRUXEval benchmark?",
+     "expected": [["DBLP_conf_icml_GuRLSS024", "DBLP_journals_corr_abs-2401-03065"]]},
+    {"id": "q11", "type": "named", "question": "How does DreamCoder grow its library of concepts?",
+     "expected": [["DBLP_journals_corr_abs-2006-08381"]]},
+    {"id": "q12", "type": "named", "question": "How does the CAV 2021 work on program sketching generate mocks from tests?",
+     "expected": [["DBLP_conf_cav_BraggFRS21"]]},
+    {"id": "q13", "type": "named", "question": "Who wrote 'Reduced-Order Modeling of Parameterized Visco-Plastic Shallow Flows', and what does it propose?",
+     "expected": [["DBLP_conf_pldi_ChaudhuriS10"]]},
+
+    {"id": "q14", "type": "author_year", "question": "Which papers by Nadia Polikarpova are in the collection?",
+     "expected": [["DBLP_conf_pldi_PolikarpovaKS16", "DBLP_journals_corr_PolikarpovaS15", "DBLP_journals_corr_PolikarpovaYIS16", "DBLP_journals_pacmpl_PolikarpovaSYIH20"]]},
+    {"id": "q15", "type": "author_year", "question": "Which papers by Alvin Cheung are about database applications?",
+     "expected": [["DBLP_conf_cidr_CheungAMSM13", "DBLP_journals_debu_CheungMSAM14", "DBLP_journals_corr_abs-1208-2013"]]},
+    {"id": "q16", "type": "author_year", "question": "Which SyGuS competition reports from 2016 or later are in the collection?",
+     "expected": [["DBLP_journals_corr_AlurFSS16"], ["DBLP_journals_corr_AlurFSS16a"], ["DBLP_journals_corr_abs-1711-11438"]]},
+    {"id": "q17", "type": "author_year", "question": "Which papers from 2025 discuss the challenges of AI for software engineering?",
+     "expected": [["DBLP_conf_icml_GuJLSESS25", "DBLP_journals_corr_abs-2503-22625"]]},
+
+    {"id": "q24", "type": "author_year", "question": "Which papers by Thomas Reps are in the collection?",
+     "expected": [["DBLP_conf_cav_BraggFRS21"]]},
+
+    {"id": "q18", "type": "comparison", "question": "Compare LiveCodeBench and CRUXEval as benchmarks for code models.",
+     "expected": [["DBLP_conf_iclr_JainHGLYZWSSS25", "DBLP_journals_corr_abs-2403-07974"], ["DBLP_conf_icml_GuRLSS024", "DBLP_journals_corr_abs-2401-03065"]]},
+    {"id": "q19", "type": "comparison", "question": "How do DreamCoder and Top-Down Synthesis for Library Learning differ in how they learn libraries?",
+     "expected": [["DBLP_journals_corr_abs-2006-08381"], ["DBLP_journals_pacmpl_BowersOWGTES23"]]},
+    {"id": "q20", "type": "comparison", "question": "How do faceted execution and Liquid Information Flow Control differ in how they enforce information-flow policies?",
+     "expected": [["DBLP_conf_plas_AustinYFS13", "DBLP_conf_pldi_YangHASFC16", "DBLP_journals_corr_YangHASFC15"], ["DBLP_journals_corr_PolikarpovaYIS16", "DBLP_journals_pacmpl_PolikarpovaSYIH20"]]},
+
+    {"id": "q21", "type": "out_of_scope", "question": "What is the capital of Australia?", "expected": []},
+    {"id": "q22", "type": "out_of_scope", "question": "What do the papers by Armando Solar-Lezama say about quantum error correction?", "expected": []},
+
+    {"id": "q23", "type": "contents", "question": "Which papers on synthesis are listed in the table of contents of TACAS 2017 Part I?",
+     "expected": [["DBLP_conf_tacas_InalaPQLS17", "DBLP_conf_tacas_2017-1"]]}
+  ]
+}

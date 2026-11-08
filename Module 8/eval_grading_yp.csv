@@ -1,0 +1,241 @@
+id,type,question,path,answer,grade,note
+q01,definition,What is program sketching?,direct,"Program sketching is a form of program synthesis where the programmer writes a partial program, or “sketch,” that captures the high-level structure of the intended solution while leaving some details unspecified for a synthesis tool to fill in automatically. It is described as a way to bridge the gap between human insight and low-level implementation details [1]. In the sketching approach, the programmer may provide either a reference implementation or tests, and the synthesizer derives the missing details so that the completed program satisfies the given correctness criteria [1]. It is also presented as a way to let programmers express implementation ideas at different levels of abstraction while a compiler or synthesizer fills in the gaps and rejects invalid sketches [2, 3].
+
+References
+[1] The Sketching Approach to Program Synthesis. Armando Solar-Lezama (2009). APLAS 2009. DBLP_conf_aplas_Solar-Lezama09.pdf, PDF p. 1.
+[2] Programming by Sketching for Bit-Streaming Programs. Armando Solar-Lezama, Rodric Rabbah, Rastislav Bodík and Kemal Ebcioğlu (2005). PLDI '05. DBLP_conf_pldi_Solar-LezamaRBE05.pdf, PDF p. 1.
+[3] Programming by Sketching for Bit-Streaming Programs. Armando Solar-Lezama, Rodric Rabbah, Rastislav Bodík and Kemal Ebcioğlu (2005). PLDI '05. DBLP_conf_pldi_Solar-LezamaRBE05.pdf, PDF p. 2 — section ""1. Introduction"".",pass, Answer read; key points match the earlier source checks.
+q02,paraphrase,Can you explain what program sketching means?,cache,"Program sketching is a form of program synthesis where the programmer writes a partial program, or “sketch,” that captures the high-level structure of the intended solution while leaving some details unspecified for a synthesis tool to fill in automatically. It is described as a way to bridge the gap between human insight and low-level implementation details [1]. In the sketching approach, the programmer may provide either a reference implementation or tests, and the synthesizer derives the missing details so that the completed program satisfies the given correctness criteria [1]. It is also presented as a way to let programmers express implementation ideas at different levels of abstraction while a compiler or synthesizer fills in the gaps and rejects invalid sketches [2, 3].
+
+References
+[1] The Sketching Approach to Program Synthesis. Armando Solar-Lezama (2009). APLAS 2009. DBLP_conf_aplas_Solar-Lezama09.pdf, PDF p. 1.
+[2] Programming by Sketching for Bit-Streaming Programs. Armando Solar-Lezama, Rodric Rabbah, Rastislav Bodík and Kemal Ebcioğlu (2005). PLDI '05. DBLP_conf_pldi_Solar-LezamaRBE05.pdf, PDF p. 1.
+[3] Programming by Sketching for Bit-Streaming Programs. Armando Solar-Lezama, Rodric Rabbah, Rastislav Bodík and Kemal Ebcioğlu (2005). PLDI '05. DBLP_conf_pldi_Solar-LezamaRBE05.pdf, PDF p. 2 — section ""1. Introduction"".",pass, Served from cache; same answer as q01.
+q03,definition,What is syntax-guided synthesis (SyGuS)?,direct,"Syntax-guided synthesis (SyGuS) is the problem of finding an implementation/program that satisfies both:
+
+- a **semantic constraint** given by a logical formula in a background theory, and
+- a **syntactic constraint** given by a grammar that restricts the allowed candidate programs. [1, 2, 3]
+
+In the SyGuS setting, the user provides both a specification and a space of programs, and the synthesizer must find a program in that space that makes the specification valid. [2, 3, 4]
+
+References
+[1] Results and Analysis of SyGuS-Comp’15. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2016). EPTCS 202, Fourth Workshop on Synthesis (SYNT 2015). DBLP_journals_corr_AlurFSS16.pdf, PDF p. 1.
+[2] SyGuS-Comp 2016: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2016). EPTCS 229. DBLP_journals_corr_AlurFSS16a.pdf, PDF p. 1.
+[3] SyGuS-Comp 2017: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2017). Sixth Workshop on Synthesis (SYNT 2017), EPTCS 260. DBLP_journals_corr_abs-1711-11438.pdf, PDF p. 1.
+[4] Scaling Enumerative Program Synthesis via Divide and Conquer. Rajeev Alur, Arjun Radhakrishna and Abhishek Udupa. In: Tools and Algorithms for the Construction and Analysis of Systems (2017). DBLP_conf_tacas_InalaPQLS17.pdf, PDF pp. 334–335 — section ""1 Introduction"".",pass, Answer read; key points match the earlier source checks.
+q04,paraphrase,What does syntax-guided synthesis mean?,cache,"Syntax-guided synthesis (SyGuS) is the problem of finding an implementation/program that satisfies both:
+
+- a **semantic constraint** given by a logical formula in a background theory, and
+- a **syntactic constraint** given by a grammar that restricts the allowed candidate programs. [1, 2, 3]
+
+In the SyGuS setting, the user provides both a specification and a space of programs, and the synthesizer must find a program in that space that makes the specification valid. [2, 3, 4]
+
+References
+[1] Results and Analysis of SyGuS-Comp’15. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2016). EPTCS 202, Fourth Workshop on Synthesis (SYNT 2015). DBLP_journals_corr_AlurFSS16.pdf, PDF p. 1.
+[2] SyGuS-Comp 2016: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2016). EPTCS 229. DBLP_journals_corr_AlurFSS16a.pdf, PDF p. 1.
+[3] SyGuS-Comp 2017: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2017). Sixth Workshop on Synthesis (SYNT 2017), EPTCS 260. DBLP_journals_corr_abs-1711-11438.pdf, PDF p. 1.
+[4] Scaling Enumerative Program Synthesis via Divide and Conquer. Rajeev Alur, Arjun Radhakrishna and Abhishek Udupa. In: Tools and Algorithms for the Construction and Analysis of Systems (2017). DBLP_conf_tacas_InalaPQLS17.pdf, PDF pp. 334–335 — section ""1 Introduction"".",pass, Served from cache; same answer as q03.
+q05,definition,What is adaptive concretization in parallel program synthesis?,direct,"Adaptive concretization is a program synthesis technique that combines symbolic search and explicit search by partially concretizing a chosen subset of unknowns during synthesis, rather than keeping all unknowns symbolic or enumerating everything. The key idea is that some unknowns have more influence on solving time than others, so concretizing the “high influence” ones can speed up search, especially in parallel [1, 2, 3].
+
+The 2015 paper by Jinseong Jeon; Xiaokang Qiu; Armando Solar-Lezama; Jeffrey S. Foster describes it as selecting a random but likely highly influential subset of unknowns to concretize, and using an online process with exponential hill climbing, binary search, and a statistical test to find a good degree of concretization [1]. The same paper reports that the approach lends itself to a highly parallel implementation and can improve performance substantially on many benchmarks [1, 4, 5].
+
+In short: it is an adaptive way to mix concrete guessing and symbolic solving so synthesis can run faster and scale better on multiple cores [1, 2, 3].
+
+References
+[1] Adaptive Concretization for Parallel Program Synthesis. Jinseong Jeon, Xiaokang Qiu, Armando Solar-Lezama and Jeffrey S. Foster (2015). CAV 2015, Part II. DBLP_conf_cav_JeonQSF15.pdf, PDF p. 1.
+[2] Adaptive Concretization for Parallel Program Synthesis. Jinseong Jeon, Xiaokang Qiu, Armando Solar-Lezama and Jeffrey S. Foster (2015). CAV 2015, Part II. DBLP_conf_cav_JeonQSF15.pdf, PDF pp. 15–16 — section ""6 Related Work"".
+[3] An empirical study of adaptive concretization for parallel program synthesis. Jinseong Jeon, Xiaokang Qiu, Armando Solar-Lezama and Jeffrey S. Foster (2017). Form Methods Syst Des. DBLP_journals_fmsd_JeonQSF17.pdf, PDF pp. 1–2.
+[4] Adaptive Concretization for Parallel Program Synthesis. Jinseong Jeon, Xiaokang Qiu, Armando Solar-Lezama and Jeffrey S. Foster (2015). CAV 2015, Part II. DBLP_conf_cav_JeonQSF15.pdf, PDF pp. 13–15 — section ""5.2 Performance Results"".
+[5] Adaptive Concretization for Parallel Program Synthesis. Jinseong Jeon, Xiaokang Qiu, Armando Solar-Lezama and Jeffrey S. Foster (2015). CAV 2015, Part II. DBLP_conf_cav_JeonQSF15.pdf, PDF pp. 2–3 — section ""1 Introduction"".",pass, Answer read; key points match the earlier source checks.
+q06,definition,What is faceted execution?,direct,"Faceted execution is a runtime technique that represents a sensitive value as a pair of facets—one for viewers who are allowed to see the secret value and one for others—and then propagates both possibilities through computation. In `Faceted Execution of Policy-Agnostic Programs` by Thomas H. Austin; Jean Yang; Cormac Flanagan; Armando Solar-Lezama, the paper explains that expressions and statements are evaluated with faceted values so the program can behave as if multiple executions were happening at once, while enforcing policy at outputs [1]. In `Precise, Dynamic Information Flow for Database-Backed Applications` by Jean Yang; Travis Hance; Thomas H. Austin; Armando Solar-Lezama; Cormac Flanagan; Stephen Chong, the runtime “keeps track of the secret and public views of sensitive values,” evaluating each facet and propagating labels through derived values, conditionals, assignments, and queries to prevent indirect and implicit leaks [2, 3].
+
+References
+[1] Faceted Execution of Policy-Agnostic Programs. Thomas H. Austin, Jean Yang, Cormac Flanagan and Armando Solar-Lezama (2013). PLAS 2013. DBLP_conf_plas_AustinYFS13.pdf, PDF pp. 6–7 — section ""3. Core Semantics"".
+[2] Precise, Dynamic Information Flow for Database-Backed Applications. Jean Yang, Travis Hance, Thomas H. Austin, Armando Solar-Lezama, Cormac Flanagan and Stephen Chong (2016). DBLP_conf_pldi_YangHASFC16.pdf, PDF p. 4 — section ""2.1.2 Specifying Policies"".
+[3] Precise, Dynamic Information Flow for Database-Backed Applications. Jean Yang, Travis Hance, Thomas H. Austin, Armando Solar-Lezama, Cormac Flanagan and Stephen Chong (2016). DBLP_journals_corr_YangHASFC15.pdf, PDF p. 4 — section ""2.1.2 Specifying Policies"".",pass, Answer read; key points match the earlier source checks.
+q07,definition,What is counterexample-guided inductive synthesis (CEGIS)?,direct,"Counterexample-guided inductive synthesis (CEGIS) is an iterative synthesis approach where a synthesizer first proposes a candidate program from a limited set of examples or constraints, and then a checker/verifier searches for a counterexample that invalidates it. If a counterexample is found, it is added to the synthesis constraints and the process repeats until no counterexample can be produced. [1, 2, 3]
+
+In the documents here, CEGIS is described as using two adversarial subroutines: a synthesizer and a checker, with the checker producing adversarial counterexamples to refine the candidate program. [2, 3]
+
+References
+[1] Synthesizing Entity Matching Rules by Examples. Rohit Singh, Venkata Vamsikrishna Meduri, Ahmed Elmagarmid, Samuel Madden, Paolo Papotti, Jorge-Arnulfo Quiané-Ruiz, et al. (2017). PVLDB. DBLP_journals_pvldb_SinghMEMPQST17.pdf, PDF p. 6.
+[2] Selecting Representative Examples for Program Synthesis. Yewen Pu, Zachery Miranda, Armando Solar-Lezama and Leslie Pack Kaelbling (2018). Proceedings of the 35th International Conference on Machine Learning, Stockholm, Sweden, PMLR 80. DBLP_conf_icml_PuMSK18.pdf, PDF p. 2 — section ""1. Introduction"".
+[3] Selecting Representative Examples for Program Synthesis. Yewen Pu, Zachery Miranda, Armando Solar-Lezama and Leslie Pack Kaelbling (2018). Proceedings of the 35th International Conference on Machine Learning. DBLP_journals_corr_abs-1711-03243.pdf, PDF p. 2 — section ""1. Introduction"".",pass, Correct and cited. The metric counts it as not cited only because the expected-paper list was a guess.
+q08,named,How does sk_p correct student programs?,direct,"sk_p corrects student programs by treating correction as a statement-level edit problem: it applies replacements, insertions, and deletions to the original program, using “fragment completion” to predict better statements from surrounding program context [1, 2]. It represents each statement syntactically as a token sequence, renames variables to keep the vocabulary finite, and uses neural models to generate candidate statements one token at a time [2]. For each statement, it looks at fragments made from the statement and its neighboring lines, removes the original statement, and then predicts a replacement that makes the fragment resemble fragments from correct programs [1, 2]. These per-statement candidates are combined into candidate programs by simultaneous replacement; the system ranks them by the product of statement probabilities and checks them against the test specification, returning the first correct program found [1, 3].
+
+References
+[1] sk_p: a neural program corrector for MOOCs. Yewen Pu, Karthik Narasimhan, Armando Solar-Lezama and Regina Barzilay (2016). DBLP_conf_oopsla_PuNSB16.pdf, PDF p. 4 — section ""2. Overview"".
+[2] sk_p: a neural program corrector for MOOCs. Yewen Pu, Karthik Narasimhan, Armando Solar-Lezama and Regina Barzilay (2016). DBLP_conf_oopsla_PuNSB16.pdf, PDF p. 2 — section ""1.3 Contributions"".
+[3] sk_p: A Neural Program Corrector for MOOCs. Yewen Pu, Karthik Narasimhan, Armando Solar-Lezama and Regina Barzilay (2016). DBLP_journals_corr_PuNSB16.pdf, PDF p. 4 — section ""2. Overview"".",pass, Answer read; key points match the earlier source checks.
+q09,named,How does LiveCodeBench avoid contamination in its evaluation?,direct,"LiveCodeBench avoids contamination by using a live, time-segmented benchmark: it collects newly released problems over time from contest platforms and evaluates models on problems released after a model’s cutoff date, so the test set stays unseen for newer models [1, 2, 3, 4]. It explicitly frames this as a “contamination-free” benchmark and uses different time windows to detect contamination and fairly compare models [2, 3]. It also mentions using edit distance and AST-based semantic similarity to detect contamination [5].
+
+References
+[1] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 1–2.
+[2] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 1–2 — section ""Abstract"".
+[3] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 10–11 — section ""4.1 Scenario-specific setup"".
+[4] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 3–4 — section ""1 Introduction"".
+[5] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 16–17 — section ""6.3 Contamination"".",pass, Answer read; key points match the earlier source checks.
+q10,named,What are the two tasks in the CRUXEval benchmark?,direct,"The two tasks in CRUXEval are:
+
+- **Output prediction (CRUXEval-O)**: predict the output of executing a given function on its associated input. [1, 2]
+- **Input prediction (CRUXEval-I)**: find an input such that executing the function produces the given output. [1, 2]
+
+References
+[1] CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution. Alex Gu, Baptiste Rozière, Hugh Leather, Armando Solar-Lezama, Gabriel Synnaeve and Sida I. Wang (2024). arXiv. DBLP_journals_corr_abs-2401-03065.pdf, PDF pp. 1–2.
+[2] CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution. Alex Gu, Baptiste Rozière, Hugh Leather, Armando Solar-Lezama, Gabriel Synnaeve and Sida I. Wang (2024). arXiv. DBLP_journals_corr_abs-2401-03065.pdf, PDF pp. 4–5 — section ""2 Related Work"".",pass, Answer read; key points match the earlier source checks.
+q11,named,How does DreamCoder grow its library of concepts?,direct,"DreamCoder grows its library iteratively through wake-sleep Bayesian program induction: it starts from a small set of primitive programming routines, solves tasks, then abstracts recurring structure into new reusable library functions, which later learned functions can call to build higher-level concepts [1, 2, 3]. This produces a layered hierarchy of abstractions that becomes deeper and broader over time [1, 4].
+
+References
+[1] DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning. Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sablé-Meyer, Luc Cary, Lucas Morales, et al. (2020). arXiv. DBLP_journals_corr_abs-2006-08381.pdf, PDF pp. 2–3.
+[2] DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning. Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sablé-Meyer, Luc Cary, Lucas Morales, et al. (2020). arXiv. DBLP_journals_corr_abs-2006-08381.pdf, PDF pp. 1–2.
+[3] DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning. Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sablé-Meyer, Luc Cary, Lucas Morales, et al. (2020). arXiv. DBLP_journals_corr_abs-2006-08381.pdf, PDF pp. 8–9.
+[4] DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning. Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sablé-Meyer, Luc Cary, Lucas Morales, et al. (2020). arXiv. DBLP_journals_corr_abs-2006-08381.pdf, PDF pp. 12–13.",pass, Answer read; key points match the earlier source checks.
+q12,named,How does the CAV 2021 work on program sketching generate mocks from tests?,direct,"The CAV 2021 paper **“Program Sketching by Automatically Generating Mocks from Tests” by Nate F. F. Bragg; Jeffrey S. Foster; Cody Roux; Armando Solar-Lezama** generates mocks by turning harness assertions into mock specifications, then rewriting calls to use those mocks instead of the original functions [1].
+
+In outline:
+- It first builds a map from each function to the assertions in harnesses where that function is called [1].
+- For each function, it creates a mock with the same signature whose body encodes those assertions [1].
+- It then rewrites the original sketch so callers invoke the mock instead of the real function, allowing the caller and callee to be synthesized separately [1].
+
+When an assertion implicitly contains existential structure, it may use quantifier elimination to translate the harness into a mock precondition/assumption form [2].
+
+References
+[1] Program Sketching by Automatically Generating Mocks from Tests. Nate F. F. Bragg, Jeffrey S. Foster, Cody Roux and Armando Solar-Lezama. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 826–827 — section ""1 Introduction"".
+[2] Program Sketching by Automatically Generating Mocks from Tests. Nate F. F. Bragg, Jeffrey S. Foster, Cody Roux and Armando Solar-Lezama. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 830–831 — section ""2 Overview"".",pass, Answer read; key points match the earlier source checks.
+q13,named,"Who wrote 'Reduced-Order Modeling of Parameterized Visco-Plastic Shallow Flows', and what does it propose?",direct,"**Reduced-Order Modeling of Parameterized Visco-Plastic Shallow Flows** was written by **Md Rezwan Bin Mizan; Ilya Timofeyev; Maxim Olshanskii** [1].
+
+It proposes a **non-intrusive reduced-order modeling framework** for parametrized visco-plastic free-surface flows governed by a shallow-water Herschel–Bulkley formulation. The method uses a **tensor-based low-rank representation** built from snapshot data via **higher-order singular value decomposition (HOSVD)**, enabling fast online reconstruction of solution trajectories without time-integrating a reduced dynamical system [1, 2].
+
+References
+[1] Reduced-Order Modeling of Parameterized Visco-Plastic Shallow Flows. Md Rezwan Bin Mizan, Ilya Timofeyev and Maxim Olshanskii (2026). DBLP_conf_pldi_ChaudhuriS10.pdf, PDF p. 1.
+[2] Reduced-Order Modeling of Parameterized Visco-Plastic Shallow Flows. Md Rezwan Bin Mizan, Ilya Timofeyev and Maxim Olshanskii (2026). DBLP_conf_pldi_ChaudhuriS10.pdf, PDF p. 3 — section ""1 Introduction"".",pass," Names the document's real authors (Mizan et al.), not the file name's."
+q14,author_year,Which papers by Nadia Polikarpova are in the collection?,agent,"The collection contains these papers by Nadia Polikarpova:
+
+- Program Synthesis from Polymorphic Refinement Types — Nadia Polikarpova, Ivan Kuraj, Armando Solar-Lezama (2016) [1, 2]
+- Liquid Information Flow Control — Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance, Armando Solar-Lezama (2020) [3, 4]
+- Synthesis of Recursive ADT Transformations from Reusable Templates — Jeevana Priya Inala, Nadia Polikarpova, Xiaokang Qiu, Benjamin S. Lerner, Armando Solar-Lezama (2017) [5, 6]
+- Searching Entangled Program Spaces — James Koppel, Zheng Guo, Edsko de Vries, Armando Solar-Lezama, Nadia Polikarpova (2022) [7, 8]
+- Deductive Synthesis of Programs with Pointers: Techniques, Challenges, Opportunities — Shachar Itzhaky, Hila Peleg, Nadia Polikarpova, Reuben N. S. Rowe, Ilya Sergey (2021) [9]
+
+References
+[1] Program Synthesis from Polymorphic Refinement Types. Nadia Polikarpova, Ivan Kuraj and Armando Solar-Lezama (2016). DBLP_conf_pldi_PolikarpovaKS16.pdf.
+[2] Program Synthesis from Polymorphic Refinement Types. Nadia Polikarpova, Ivan Kuraj and Armando Solar-Lezama (2016). DBLP_journals_corr_PolikarpovaS15.pdf.
+[3] Liquid Information Flow Control. Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance and Armando Solar-Lezama (2020). Proc. ACM Program. Lang., Vol. 4, No. ICFP, Article 105. DBLP_journals_corr_PolikarpovaYIS16.pdf.
+[4] Liquid Information Flow Control. Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance and Armando Solar-Lezama (2020). Proc. ACM Program. Lang.. DBLP_journals_pacmpl_PolikarpovaSYIH20.pdf.
+[5] Synthesis of Recursive ADT Transformations from Reusable Templates. Jeevana Priya Inala, Nadia Polikarpova, Xiaokang Qiu, Benjamin S. Lerner and Armando Solar-Lezama (2017). DBLP_journals_corr_InalaQLS15.pdf.
+[6] Synthesis of Recursive ADT Transformations from Reusable Templates. Jeevana Priya Inala, Nadia Polikarpova, Xiaokang Qiu, Benjamin S. Lerner and Armando Solar-Lezama. In: Tools and Algorithms for the Construction and Analysis of Systems (2017). DBLP_conf_tacas_InalaPQLS17.pdf, PDF pp. 264–280.
+[7] Searching Entangled Program Spaces. James Koppel, Zheng Guo, Edsko de Vries, Armando Solar-Lezama and Nadia Polikarpova (2022). Proc. ACM Program. Lang., Vol. 1, No. ICFP, Article . Publication date: June 2022. DBLP_journals_corr_abs-2206-07828.pdf.
+[8] Searching Entangled Program Spaces. James Koppel, Zheng Guo, Edsko de Vries, Armando Solar-Lezama and Nadia Polikarpova (2022). Proc. ACM Program. Lang., ICFP. DBLP_journals_pacmpl_KoppelGVSP22.pdf.
+[9] Deductive Synthesis of Programs with Pointers: Techniques, Challenges, Opportunities. Shachar Itzhaky, Hila Peleg, Nadia Polikarpova, Reuben N. S. Rowe and Ilya Sergey. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 133–158.",pass," All 5 works found, including the paper inside the CAV 2021 volume."
+q15,author_year,Which papers by Alvin Cheung are about database applications?,agent,"The papers by Alvin Cheung about database applications are:
+
+- **Using Program Analysis to Improve Database Applications** — Alvin Cheung, Owen Arden, Samuel Madden, Armando Solar-Lezama, Andrew C. Myers (2014) [1]
+- **StatusQuo: Making Familiar Abstractions Perform Using Program Analysis** — Alvin Cheung, Owen Arden, Samuel Madden, Armando Solar-Lezama, Andrew C. Myers (2013) [2]
+- **Inferring SQL Queries Using Program Synthesis** — Alvin Cheung, Armando Solar-Lezama, Samuel Madden (2012) [3]
+
+References
+[1] Using Program Analysis to Improve Database Applications. Alvin Cheung, Owen Arden, Samuel Madden, Armando Solar-Lezama and Andrew C. Myers (2014). Bulletin of the IEEE Computer Society Technical Committee on Data Engineering. DBLP_journals_debu_CheungMSAM14.pdf.
+[2] StatusQuo: Making Familiar Abstractions Perform Using Program Analysis. Alvin Cheung, Owen Arden, Samuel Madden, Armando Solar-Lezama and Andrew C. Myers (2013). 6th Biennial Conference on Innovative Data Systems Research (CIDR 13). DBLP_conf_cidr_CheungAMSM13.pdf.
+[3] Inferring SQL Queries Using Program Synthesis. Alvin Cheung, Armando Solar-Lezama and Samuel Madden (2012). DBLP_journals_corr_abs-1208-2013.pdf.",pass, Answer read; key points match the earlier source checks.
+q16,author_year,Which SyGuS competition reports from 2016 or later are in the collection?,agent,"The collection contains these SyGuS competition reports from 2016 or later:
+
+- **SyGuS-Comp 2016: Results and Analysis** — **Rajeev Alur, Dana Fisman, Rishabh Singh, Armando Solar-Lezama** — 2016 [1]
+- **SyGuS-Comp 2017: Results and Analysis** — **Rajeev Alur, Dana Fisman, Rishabh Singh, Armando Solar-Lezama** — 2017 [2]
+
+I do not see any SyGuS competition report from 2018 or later in the provided collection.
+
+References
+[1] SyGuS-Comp 2016: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2016). EPTCS 229. DBLP_journals_corr_AlurFSS16a.pdf.
+[2] SyGuS-Comp 2017: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2017). Sixth Workshop on Synthesis (SYNT 2017), EPTCS 260. DBLP_journals_corr_abs-1711-11438.pdf.",partial," Lists the 2016 and 2017 reports; omits 'Results and Analysis of SyGuS-Comp 15', which the catalog dates 2016. Arguable: it reports the 2015 competition."
+q17,author_year,Which papers from 2025 discuss the challenges of AI for software engineering?,agent,"The 2025 papers in your collection that discuss challenges of AI for software engineering are:
+
+- **Challenges and Paths Towards AI for Software Engineering** — Alex Gu, Naman Jain, Wen-Ding Li, Manish Shetty, Yijia Shao, Ziyang Li, Diyi Yang, Kevin Ellis, Koushik Sen, Armando Solar-Lezama (2025) [1]
+- **Position: Future Research and Challenges Remain Towards AI for Software Engineering** — Alex Gu, Naman Jain, Wen-Ding Li, Manish Shetty, Kevin Ellis, Koushik Sen, Armando Solar-Lezama (2025) [2]
+
+References
+[1] Challenges and Paths Towards AI for Software Engineering. Alex Gu, Naman Jain, Wen-Ding Li, Manish Shetty, Yijia Shao, Ziyang Li, et al. (2025). arXiv. DBLP_journals_corr_abs-2503-22625.pdf.
+[2] Position: Future Research and Challenges Remain Towards AI for Software Engineering. Alex Gu, Naman Jain, Wen-Ding Li, Manish Shetty, Kevin Ellis, Koushik Sen, et al. (2025). Proceedings of the 42nd International Conference on Machine Learning, Vancouver, Canada. PMLR 267. DBLP_conf_icml_GuJLSESS25.pdf.",pass, Answer read; key points match the earlier source checks.
+q24,author_year,Which papers by Thomas Reps are in the collection?,agent,"The collection contains these papers by Thomas Reps:
+
+- Algebraic Program Analysis — Zachary Kincaid, Thomas Reps, John Cyphert — 2021 [1]
+- Programmable Program Synthesis — Loris D’Antoni, Qinheping Hu, Jinwoo Kim, Thomas Reps — 2021 [2]
+- Synthesis with Asymptotic Resource Bounds — Qinheping Hu, John Cyphert, Loris D’Antoni, Thomas Reps — 2021 [3]
+
+References
+[1] Algebraic Program Analysis. Zachary Kincaid, Thomas Reps and John Cyphert. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 69–106.
+[2] Programmable Program Synthesis. Loris D’Antoni, Qinheping Hu, Jinwoo Kim and Thomas Reps. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 107–132.
+[3] Synthesis with Asymptotic Resource Bounds. Qinheping Hu, John Cyphert, Loris D’Antoni and Thomas Reps. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 801–825.",pass, All 3 papers inside the CAV 2021 volume found.
+q18,comparison,Compare LiveCodeBench and CRUXEval as benchmarks for code models.,agent,"LiveCodeBench and CRUXEval are both benchmarks for code models, but they target different capabilities and evaluation settings.
+
+- **CRUXEval** is designed to probe **code reasoning, understanding, and execution** on **simple Python functions**. It has two tasks: **output prediction** and **input prediction**. The benchmark consists of **800 Python functions** of **3–13 lines**, each with an input-output pair, and it emphasizes reasoning about execution behavior rather than code generation from natural language [1, 2, 3].  
+- **LiveCodeBench** is a **holistic and contamination-free** benchmark for code models built from **recent contest problems** across **LeetCode, AtCoder, and CodeForces**. It includes scenarios beyond code generation, such as **self-repair, code execution, and test output prediction**, and is explicitly designed to reduce contamination and overfitting by using **live updates** and **time-segmented evaluation** [4, 5, 6, 7, 8].
+
+Key differences:
+- **Task focus**: CRUXEval focuses on **reasoning/execution over small Python programs**; LiveCodeBench covers a **broader set of coding abilities** and more realistic competition-style problems [1, 7, 8].
+- **Problem source**: CRUXEval uses **synthetic/simple Python functions**; LiveCodeBench uses **human-produced contest problems** from multiple platforms [2, 7].
+- **Contamination handling**: LiveCodeBench makes contamination avoidance a central design goal, while CRUXEval’s documents do not emphasize contamination in the same way [5, 6, 8].
+- **Scale and freshness**: LiveCodeBench is continuously updated and hosts **500+ problems** in the 2024 preprint, while CRUXEval is a fixed benchmark of **800 functions** [4, 2, 6].
+
+In short, **CRUXEval is a focused probe of execution reasoning**, whereas **LiveCodeBench is a broader, more practical benchmark for real-world coding capabilities with stronger emphasis on contamination-free evaluation** [1, 7, 8].
+
+References
+[1] CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution. Alex Gu, Baptiste Rozière, Hugh Leather, Armando Solar-Lezama, Gabriel Synnaeve and Sida I. Wang (2024). arXiv. DBLP_journals_corr_abs-2401-03065.pdf, PDF p. 2 — section ""1 Introduction"".
+[2] CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution. Alex Gu, Baptiste Roziere, Hugh Leather, Armando Solar-Lezama, Gabriel Synnaeve and Sida I. Wang (2024). Proceedings of the 41st International Conference on Machine Learning. DBLP_conf_icml_GuRLSS024.pdf, PDF p. 1.
+[3] CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution. Alex Gu, Baptiste Rozière, Hugh Leather, Armando Solar-Lezama, Gabriel Synnaeve and Sida I. Wang (2024). arXiv. DBLP_journals_corr_abs-2401-03065.pdf, PDF pp. 1–2.
+[4] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 1–2.
+[5] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 1–2 — section ""Abstract"".
+[6] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 3–4 — section ""1 Introduction"".
+[7] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 15–16 — section ""6.1 Code Generation"".
+[8] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, et al. (2024). arXiv. DBLP_journals_corr_abs-2403-07974.pdf, PDF pp. 17–18 — section ""7 Limitations"".",pass, Answer read; key points match the earlier source checks.
+q19,comparison,How do DreamCoder and Top-Down Synthesis for Library Learning differ in how they learn libraries?,agent,"DreamCoder and **Top-Down Synthesis for Library Learning** differ mainly in *how they search for abstractions*.
+
+- **DreamCoder** uses a **deductive, bottom-up refactoring approach**: it traverses training programs, proposes abstractions through rewrites, and often relies on version spaces or rewrite-based extraction to learn libraries. This bottom-up style can be harder to bound and prune and tends to need more memory for candidate abstractions [1].  
+- **Top-Down Synthesis for Library Learning** (the paper by **Matthew Bowers, Theo X. Olausson, Lionel Wong, Gabriel Grand, Joshua B. Tenenbaum, Kevin Ellis, and Armando Solar-Lezama**, 2023) uses **corpus-guided top-down search**: it starts from initial DSL primitives and repeatedly refines partial abstractions with holes, using syntactic pattern matching and upper-bound pruning to search efficiently for the most compressive abstraction [2, 3, 4].
+
+In short: **DreamCoder learns libraries bottom-up via deductive refactoring; Top-Down Synthesis learns them top-down by directly synthesizing abstractions and pruning the search space aggressively** [1, 2, 4].
+
+References
+[1] Top-Down Synthesis for Library Learning. Matthew Bowers, Theo X. Olausson, Lionel Wong, Gabriel Grand, Joshua B. Tenenbaum, Kevin Ellis, et al. (2023). Proc. ACM Program. Lang.. DBLP_journals_pacmpl_BowersOWGTES23.pdf, PDF pp. 26–27 — section ""7.1 Deductive Refactoring and Library Learning"".
+[2] Top-Down Synthesis for Library Learning. Matthew Bowers, Theo X. Olausson, Lionel Wong, Gabriel Grand, Joshua B. Tenenbaum, Kevin Ellis, et al. (2023). Proc. ACM Program. Lang.. DBLP_journals_pacmpl_BowersOWGTES23.pdf, PDF p. 1.
+[3] Top-Down Synthesis for Library Learning. Matthew Bowers, Theo X. Olausson, Lionel Wong, Gabriel Grand, Joshua B. Tenenbaum, Kevin Ellis, et al. (2023). Proc. ACM Program. Lang.. DBLP_journals_pacmpl_BowersOWGTES23.pdf, PDF pp. 4–5 — section ""2 OVERVIEW"".
+[4] Top-Down Synthesis for Library Learning. Matthew Bowers, Theo X. Olausson, Lionel Wong, Gabriel Grand, Joshua B. Tenenbaum, Kevin Ellis, et al. (2023). Proc. ACM Program. Lang.. DBLP_journals_pacmpl_BowersOWGTES23.pdf, PDF pp. 28–29 — section ""7.4 Upper Bounds in Network Motifs"".",partial," Accurate on both sides, but DreamCoder is described only through the Bowers paper's related-work section; DreamCoder's own paper was not retrieved."
+q20,comparison,How do faceted execution and Liquid Information Flow Control differ in how they enforce information-flow policies?,agent,"Faceted execution enforces policies at runtime by evaluating sensitive data on multiple “facets” and choosing the appropriate view when data is printed or exported; this can avoid leaks without static rejection, but it may incur runtime overhead and only reveals violations during execution [1, 2, 3]. In particular, Jeeves uses faceted execution so that sensitive values may be replaced by defaults at runtime, and the paper notes that this can be expensive and harder to debug [3, 4].
+
+Liquid Information Flow Control enforces policies statically using liquid types: the program is type-checked against declarative policies, and if verification fails, Lifty can synthesize a repair that makes the program policy-compliant [5, 6]. The paper contrasts this with runtime-only approaches, emphasizing that Lifty can verify secure programs and find leaks quickly, and that its repair engine patches leaks automatically [5, 6].
+
+References
+[1] Faceted Execution of Policy-Agnostic Programs. Thomas H. Austin, Jean Yang, Cormac Flanagan and Armando Solar-Lezama (2013). PLAS 2013. DBLP_conf_plas_AustinYFS13.pdf, PDF p. 1.
+[2] Faceted Execution of Policy-Agnostic Programs. Thomas H. Austin, Jean Yang, Cormac Flanagan and Armando Solar-Lezama (2013). PLAS 2013. DBLP_conf_plas_AustinYFS13.pdf, PDF pp. 6–7 — section ""3. Core Semantics"".
+[3] Faceted Execution of Policy-Agnostic Programs. Thomas H. Austin, Jean Yang, Cormac Flanagan and Armando Solar-Lezama (2013). PLAS 2013. DBLP_conf_plas_AustinYFS13.pdf, PDF pp. 9–10 — section ""7. Related Work"".
+[4] Liquid Information Flow Control. Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance and Armando Solar-Lezama (2020). Proc. ACM Program. Lang., Vol. 4, No. ICFP, Article 105. DBLP_journals_corr_PolikarpovaYIS16.pdf, PDF pp. 4–5 — section ""2.2 Programming with Lifty"".
+[5] Liquid Information Flow Control. Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance and Armando Solar-Lezama (2020). Proc. ACM Program. Lang., Vol. 4, No. ICFP, Article 105. DBLP_journals_corr_PolikarpovaYIS16.pdf, PDF p. 1.
+[6] Liquid Information Flow Control. Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance and Armando Solar-Lezama (2020). Proc. ACM Program. Lang.. DBLP_journals_pacmpl_PolikarpovaSYIH20.pdf, PDF p. 1.",pass, Both sides covered through the agent path.
+q21,out_of_scope,What is the capital of Australia?,direct->fallback,I can’t answer that from the provided sources. None of the supplied papers or passages state the capital of Australia.,pass, Declined; correct for out of scope.
+q22,out_of_scope,What do the papers by Armando Solar-Lezama say about quantum error correction?,agent,"The provided papers by Armando Solar-Lezama do not mention quantum error correction in their abstracts or available passages. The documents here focus on program correction, feedback generation, neural network corrections, fairness verification, synthesis, distributed systems, and related topics, but not quantum error correction [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17].
+
+If you want, I can also summarize what these papers do say about correction and verification more generally.
+
+References
+[1] sk_p: a neural program corrector for MOOCs. Yewen Pu, Karthik Narasimhan, Armando Solar-Lezama and Regina Barzilay (2016). DBLP_conf_oopsla_PuNSB16.pdf.
+[2] Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections. Xin Zhang, Armando Solar-Lezama and Rishabh Singh (2018). arXiv preprint. DBLP_journals_corr_abs-1802-07384.pdf.
+[3] Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections. Xin Zhang, Armando Solar-Lezama and Rishabh Singh (2018). 32nd Conference on Neural Information Processing Systems (NeurIPS 2018), Montréal, Canada. DBLP_conf_nips_ZhangSS18.pdf.
+[4] Automated Feedback Generation for Introductory Programming Assignments. Rishabh Singh, Sumit Gulwani and Armando Solar-Lezama (2012). DBLP_journals_corr_abs-1204-1751.pdf.
+[5] Is Self-Repair a Silver Bullet for Code Generation? Theo X. Olausson, Jeevana Priya Inala, Chenglong Wang, Jianfeng Gao and Armando Solar-Lezama (2024). ICLR. DBLP_conf_iclr_OlaussonIW0S24.pdf.
+[6] The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations? Alex Gu, Wen-Ding Li, Naman Jain, Theo X. Olausson, Celine Lee, Koushik Sen, et al. (2024). Findings of the Association for Computational Linguistics: ACL 2024. DBLP_conf_acl_GuLJOLSS24.pdf.
+[7] Probabilistic Verification of Fairness Properties via Concentration. Osbert Bastani, Xin Zhang and Armando Solar-Lezama (2019). Proc. ACM Program. Lang., OOPSLA. DBLP_journals_pacmpl_Bastani0S19.pdf.
+[8] Synthesis of Domain Specific CNF Encoders for Bit-Vector Solvers. Jeevana Priya Inala, Rohit Singh and Armando Solar-Lezama (2016). SAT. DBLP_conf_sat_Inala0S16.pdf.
+[9] A Language for Counterfactual Generative Models. Zenna Tavares, James Koppel, Xin Zhang, Ria Das and Armando Solar-Lezama (2021). Proceedings of the 38th International Conference on Machine Learning, PMLR 139. DBLP_conf_icml_TavaresK0DS21.pdf.
+[10] Smoothing a Program Soundly and Robustly. Swarat Chaudhuri and Armando Solar-Lezama (2011). CAV 2011. DBLP_conf_cav_ChaudhuriS11.pdf.
+[11] Leveraging Sequential Computation for Programming Efficient and Reliable Distributed Systems. Ivan Kuraj and Armando Solar-Lezama (2017). 2nd Summit on Advances in Programming Languages (SNAPL 2017). DBLP_conf_snapl_KurajS17.pdf.
+[12] Probabilistic Verification of Fairness Properties via Concentration. Osbert Bastani, Xin Zhang and Armando Solar-Lezama (2019). Proc. ACM Program. Lang. 3, OOPSLA. DBLP_journals_corr_abs-1812-02573.pdf.
+[13] Program Sketching by Automatically Generating Mocks from Tests. Nate F. F. Bragg, Jeffrey S. Foster, Cody Roux and Armando Solar-Lezama. In: Computer Aided Verification (2021). DBLP_conf_cav_BraggFRS21.pdf, PDF pp. 826–849.
+[14] Numerically-Robust Inductive Proof Rules for Continuous Dynamical Systems. Sicun Gao, James Kapinski, Jyotirmoy Deshmukh, Nima Roohi, Armando Solar-Lezama, Nikos Arechiga, et al.. In: Computer Aided Verification: 31st International Conference, CAV 2019, New York City, NY, USA, July 15–18, 2019, Proceedings, Part II (2019). DBLP_conf_cav_GaoKDRSAK19.pdf, PDF pp. 154–171.
+[15] Delta-Decision Procedures for Exists-Forall Problems over the Reals. Soonho Kong, Armando Solar-Lezama and Sicun Gao. In: Computer Aided Verification (2018). DBLP_conf_cav_KongSG18.pdf, PDF pp. 231–247.
+[16] Synthesis of Recursive ADT Transformations from Reusable Templates. Jeevana Priya Inala, Nadia Polikarpova, Xiaokang Qiu, Benjamin S. Lerner and Armando Solar-Lezama. In: Tools and Algorithms for the Construction and Analysis of Systems (2017). DBLP_conf_tacas_InalaPQLS17.pdf, PDF pp. 264–280.
+[17] Bridging the Gap Between General-Purpose and Domain-Specific Compilers with Synthesis. Alvin Cheung, Shoaib Kamil and Armando Solar-Lezama. In: 1st Summit on Advances in Programming Languages (2015). DBLP_conf_snapl_2015.pdf, PDF pp. 65–76.",pass," Declined, though it cites 17 records to say so. Are these all Solar-Lezama papers in the corpus? "
+q23,contents,Which papers on synthesis are listed in the table of contents of TACAS 2017 Part I?,agent,"The table of contents for **Tools and Algorithms for the Construction and Analysis of Systems 23rd International Conference, TACAS 2017 Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2017 Uppsala, Sweden, April 22–29, 2017 Proceedings, Part I** lists these synthesis-related papers:
+
+- **SyGuS-Comp 2017: Results and Analysis** — Rajeev Alur, Dana Fisman, Rishabh Singh, Armando Solar-Lezama, 2017 [1]
+
+References
+[1] SyGuS-Comp 2017: Results and Analysis. Rajeev Alur, Dana Fisman, Rishabh Singh and Armando Solar-Lezama (2017). Sixth Workshop on Synthesis (SYNT 2017), EPTCS 260. DBLP_journals_corr_abs-1711-11438.pdf.",fail," Wrong: names a SyGuS-Comp report as a TACAS contents entry, and misses the real entries. The other two runs listed real entries."

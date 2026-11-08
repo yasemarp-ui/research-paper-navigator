@@ -1,0 +1,11 @@
+# Research Paper Navigator (Module 8) — tested with Python 3.12 on macOS (Apple Silicon).
+# Versions match the course labs; pypdf reads the PDFs.
+chromadb==1.5.9
+langchain-core==1.3.2
+langchain-openai==1.1.10
+langchain-text-splitters==1.1.1
+langgraph==1.1.10
+openai==2.26.0
+pypdf==6.16.2
+python-dotenv==1.2.2
+rank-bm25==0.2.2

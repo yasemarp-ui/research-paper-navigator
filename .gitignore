@@ -1,0 +1,26 @@
+# secrets — never commit
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS / editors
+.DS_Store
+.vscode/
+~$*
+
+# course dataset (not redistributed; see README)
+Module 1/
+
+# generated data (rebuilt by paper_navigator.py catalog / index)
+Module 8/catalog/pages/
+Module 8/catalog/*/chunks/
+Module 8/catalog/metadata_review.csv
+Module 8/chroma_papers/
+Module 8/semantic_cache_papers/
+
+# scratch outputs of a new eval run (the graded evidence is eval_grading_yp.csv)
+Module 8/eval_grading.csv
+Module 8/*_trial.*
